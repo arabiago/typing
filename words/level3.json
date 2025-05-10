@@ -1,0 +1,1559 @@
+[
+  {
+    "arabic": "نفط",
+    "meaning": "石油",
+    "english": "petroleum"
+  },
+  {
+    "arabic": "نفط خام",
+    "meaning": "原油",
+    "english": "crude oil"
+  },
+  {
+    "arabic": "برميل",
+    "meaning": "バレル",
+    "english": "barrel"
+  },
+  {
+    "arabic": "مليون برميل يومياً",
+    "meaning": "日量100万バレル",
+    "english": "million barrels per day"
+  },
+  {
+    "arabic": "حقل نفط",
+    "meaning": "油田",
+    "english": "oil field"
+  },
+  {
+    "arabic": "إنتاج النفط",
+    "meaning": "石油の生産",
+    "english": "oil production"
+  },
+  {
+    "arabic": "الإمدادات البترولية",
+    "meaning": "石油供給",
+    "english": "supply of petroleum"
+  },
+  {
+    "arabic": "زيادة إنتاج النفط",
+    "meaning": "石油の増産",
+    "english": "increase of oil production"
+  },
+  {
+    "arabic": "خفض إنتاج النفط",
+    "meaning": "石油の減産",
+    "english": "reduction of oil production"
+  },
+  {
+    "arabic": "أسعار النفط الخام",
+    "meaning": "原油価格",
+    "english": "crude oil price"
+  },
+  {
+    "arabic": "السوق العالمية للنفط",
+    "meaning": "世界の石油市場",
+    "english": "global oil market"
+  },
+  {
+    "arabic": "مصفاة نفط",
+    "meaning": "石油精製所",
+    "english": "oil refinery"
+  },
+  {
+    "arabic": "منشآت نفطية",
+    "meaning": "石油施設",
+    "english": "oil facilities"
+  },
+  {
+    "arabic": "وزير الطاقة",
+    "meaning": "エネルギー相",
+    "english": "Minister of Energy"
+  },
+  {
+    "arabic": "منظمة الدول المصدرة للنفط",
+    "meaning": "石油輸出国機構（OPEC）",
+    "english": "Organization of the Petroleum Exporting Countries"
+  },
+  {
+    "arabic": "ناقلة نفط",
+    "meaning": "石油タンカー",
+    "english": "oil tanker"
+  },
+  {
+    "arabic": "البلدان المنتجة للنفط",
+    "meaning": "産油国",
+    "english": "oil producers"
+  },
+  {
+    "arabic": "الدول المستهلكة للنفط",
+    "meaning": "石油消費国",
+    "english": "oil consuming countries"
+  },
+  {
+    "arabic": "هيدروكربون",
+    "meaning": "炭化水素",
+    "english": "hydrocarbon"
+  },
+  {
+    "arabic": "غاز طبيعي",
+    "meaning": "天然ガス",
+    "english": "natural gas"
+  },
+  {
+    "arabic": "غاز صخري",
+    "meaning": "シェールガス",
+    "english": "shale gas"
+  },
+  {
+    "arabic": "أرامكو",
+    "meaning": "サウジアラムコ（サウジ国営石油会社）",
+    "english": "Saudi Aramco"
+  },
+  {
+  "arabic": "تصدير",
+  "meaning": "輸出",
+  "english": "export"
+},
+{
+  "arabic": "استيراد",
+  "meaning": "輸入",
+  "english": "import"
+},
+{
+  "arabic": "ديون",
+  "meaning": "債務",
+  "english": "debt"
+},
+{
+  "arabic": "ميزانية",
+  "meaning": "予算",
+  "english": "budget"
+},
+{
+  "arabic": "عقوبات اقتصادية",
+  "meaning": "経済制裁",
+  "english": "economic sanctions"
+},
+{
+  "arabic": "سعر الصرف",
+  "meaning": "為替レート",
+  "english": "exchange rate"
+},
+{
+  "arabic": "شركة مملوكة للدولة",
+  "meaning": "国営企業",
+  "english": "state-owned company"
+},
+{
+  "arabic": "مشروع مشترك",
+  "meaning": "合弁事業",
+  "english": "joint venture"
+},
+{
+  "arabic": "عقد",
+  "meaning": "契約",
+  "english": "contract"
+},
+{
+  "arabic": "عقد طويل الأجل",
+  "meaning": "長期契約",
+  "english": "long-term contract"
+},
+{
+  "arabic": "منشأة تخزين",
+  "meaning": "貯蔵施設",
+  "english": "storage facility"
+},
+{
+  "arabic": "احتياطي النفط",
+  "meaning": "石油備蓄",
+  "english": "oil reserves"
+},
+{
+  "arabic": "البحر الأحمر",
+  "meaning": "紅海",
+  "english": "Red Sea"
+},
+{
+  "arabic": "بحر العرب",
+  "meaning": "アラビア海",
+  "english": "Arabian Sea"
+},
+{
+  "arabic": "البحر الأبيض المتوسط",
+  "meaning": "地中海",
+  "english": "Mediterranean Sea"
+},
+{
+  "arabic": "الخليج الفارسي",
+  "meaning": "ペルシャ湾",
+  "english": "Persian Gulf"
+},
+{
+  "arabic": "خليج عمان",
+  "meaning": "オマーン湾",
+  "english": "Gulf of Oman"
+},
+{
+  "arabic": "خليج عدن",
+  "meaning": "アデン湾",
+  "english": "Gulf of Aden"
+},
+{
+  "arabic": "المحيط الهادئ",
+  "meaning": "太平洋",
+  "english": "the Pacific Ocean"
+},
+{
+  "arabic": "المحيط الأطلسي",
+  "meaning": "大西洋",
+  "english": "the Atlantic Ocean"
+},
+{
+  "arabic": "مضيق هرمز",
+  "meaning": "ホルムズ海峡",
+  "english": "the Straits of Hormuz"
+},
+{
+  "arabic": "مضيق جبل طارق",
+  "meaning": "ジブラルタル海峡",
+  "english": "the Straits of Gibraltar"
+},
+{
+  "arabic": "مضيق باب المندب",
+  "meaning": "バーブルマンデブ海峡",
+  "english": "the Straits of Bab-el-Mandeb"
+},
+{
+  "arabic": "شبه الجزيرة العربية",
+  "meaning": "アラビア半島",
+  "english": "Arabian Peninsula"
+},
+{
+  "arabic": "شبه جزيرة سيناء",
+  "meaning": "シナイ半島",
+  "english": "Sinai Peninsula"
+},
+{
+  "arabic": "قناة السويس",
+  "meaning": "スエズ運河",
+  "english": "Suez Canal"
+},
+{
+  "arabic": "نهر النيل",
+  "meaning": "ナイル川",
+  "english": "the Nile"
+},
+{
+  "arabic": "نهر دجلة",
+  "meaning": "チグリス川",
+  "english": "Tigris River"
+},
+{
+  "arabic": "نهر الفرات",
+  "meaning": "ユーフラテス川",
+  "english": "Euphrates River"
+},
+{
+  "arabic": "نهر الأردن",
+  "meaning": "ヨルダン川",
+  "english": "Jordan River"
+},
+{
+  "arabic": "هضبة الجولان",
+  "meaning": "ゴラン高原",
+  "english": "Golan Heights"
+},
+{
+  "arabic": "الصحراء الكبرى",
+  "meaning": "サハラ砂漠",
+  "english": "the Sahara"
+},
+{
+  "arabic": "الربع الخالي",
+  "meaning": "アッルブゥ・ルハーリー砂漠",
+  "english": "the Rub' al Khali"
+},
+{
+  "arabic": "جبال الأطلس",
+  "meaning": "アトラス山脈",
+  "english": "Atlas Mountains"
+},
+{
+  "arabic": "القضية الفلسطينية",
+  "meaning": "パレスチナ問題",
+  "english": "Palestinian issue"
+},
+{
+  "arabic": "الصراع الفلسطيني الإسرائيلي",
+  "meaning": "パレスチナ・イスラエル紛争",
+  "english": "Israeli-Palestinian conflict"
+},
+{
+  "arabic": "الهولوكوست",
+  "meaning": "ユダヤ人虐殺（ホロコースト）",
+  "english": "the Holocaust"
+},
+{
+  "arabic": "الحركة الصهيونية",
+  "meaning": "シオニズム運動",
+  "english": "Zionist movement"
+},
+{
+  "arabic": "اتفاقية سايكس بيكو",
+  "meaning": "サイクス・ピコ協定（1916年）",
+  "english": "Sykes–Picot Agreement"
+},
+{
+  "arabic": "وعد بلفور",
+  "meaning": "バルフォア宣言（1917年）",
+  "english": "Balfour Declaration"
+},
+{
+  "arabic": "قرار تقسيم فلسطين",
+  "meaning": "パレスチナ分割決議（1947年）",
+  "english": "UN Partition Plan for Palestine"
+},
+{
+  "arabic": "النكبة",
+  "meaning": "ナクバ（大災厄）",
+  "english": "1948 Palestinian exodus (Nakba)"
+},
+{
+  "arabic": "لاجئون فلسطينيون",
+  "meaning": "パレスチナ難民",
+  "english": "Palestine refugees"
+},
+{
+  "arabic": "حرب 1948",
+  "meaning": "第一次中東戦争（1948年）",
+  "english": "1948 Arab-Israeli War"
+},
+{
+  "arabic": "الضفة الغربية",
+  "meaning": "ヨルダン川西岸",
+  "english": "West Bank"
+},
+{
+  "arabic": "قطاع غزة",
+  "meaning": "ガザ地区",
+  "english": "Gaza Strip"
+},
+{
+  "arabic": "حرب 1956",
+  "meaning": "第二次中東戦争（1956年）",
+  "english": "Second Arab-Israeli War"
+},
+{
+  "arabic": "العدوان الثلاثي",
+  "meaning": "「三国の敵対」",
+  "english": "Tripartite Aggression"
+},
+{
+  "arabic": "أزمة السويس",
+  "meaning": "「スエズ危機」",
+  "english": "Suez Crisis"
+},
+{
+  "arabic": "حرب سيناء",
+  "meaning": "「シナイ戦争」",
+  "english": "Sinai War"
+},
+{
+  "arabic": "تأميم قناة السويس",
+  "meaning": "スエズ運河の国有化",
+  "english": "Nationalization of the Suez Canal"
+},
+{
+  "arabic": "حرب 1967",
+  "meaning": "第三次中東戦争（1967年）",
+  "english": "1967 Arab-Israel War"
+},
+{
+  "arabic": "نكسة حزيران",
+  "meaning": "「6月の敗北」",
+  "english": "Naksah (Setback of June)"
+},
+{
+  "arabic": "حرب الأيام الستة",
+  "meaning": "「6日間戦争」",
+  "english": "Six-Day War"
+},
+{
+  "arabic": "القدس الشرقية",
+  "meaning": "東エルサレム",
+  "english": "East Jerusalem"
+},
+{
+  "arabic": "منظمة التحرير الفلسطينية",
+  "meaning": "パレスチナ解放機構（PLO）",
+  "english": "Palestine Liberation Organization"
+},
+{
+  "arabic": "حركة فتح",
+  "meaning": "ファタハ運動",
+  "english": "Fatah"
+},
+{
+  "arabic": "حركة المقاومة الإسلامية (حركة حماس)",
+  "meaning": "ハマース（イスラム抵抗運動）",
+  "english": "Hamas (Islamic Resistance Movement)"
+},
+{
+  "arabic": "كتائب الشهيد عز الدين القسام",
+  "meaning": "アルカッサーム旅団",
+  "english": "Izz ad-Din al-Qassam Brigades"
+},
+{
+  "arabic": "أيلول الأسود",
+  "meaning": "黒い九月（ヨルダン内戦）",
+  "english": "Black September"
+},
+{
+  "arabic": "الجبهة الشعبية لتحرير فلسطين",
+  "meaning": "パレスチナ人民解放戦線（PFLP）",
+  "english": "Popular Front for the Liberation of Palestine"
+},
+{
+  "arabic": "الحرب الأهلية اللبنانية",
+  "meaning": "レバノン内戦",
+  "english": "Lebanese Civil War"
+},
+{
+  "arabic": "الانتفاضة الفلسطينية الأولى",
+  "meaning": "第一次インティファーダ",
+  "english": "First Intifada"
+},
+{
+  "arabic": "انتفاضة الحجارة",
+  "meaning": "「石のインティファーダ」",
+  "english": "Stone Intifada"
+},
+{
+  "arabic": "اتفاقية أوسلو",
+  "meaning": "オスロ合意",
+  "english": "Oslo Accord"
+},
+{
+  "arabic": "السلطة الفلسطينية",
+  "meaning": "パレスチナ当局（PA）",
+  "english": "Palestinian Authority"
+},
+{
+  "arabic": "الانتفاضة الفلسطينية الثانية",
+  "meaning": "第二次インティファーダ",
+  "english": "Second Intifada"
+},
+{
+  "arabic": "انتفاضة الأقصى",
+  "meaning": "アルアクサー・インティファーダ",
+  "english": "Al-Aqsa Intifada"
+},
+{
+  "arabic": "جدار الفصل العنصري",
+  "meaning": "分離壁",
+  "english": "apartheid wall / West Bank barrier"
+},
+{
+  "arabic": "حاجز",
+  "meaning": "検問所",
+  "english": "checkpoint"
+},
+{
+  "arabic": "حق العودة للاجئين الفلسطينيين",
+  "meaning": "パレスチナ難民の帰還権",
+  "english": "Palestinian right of return"
+},
+{
+  "arabic": "حل الدولتين",
+  "meaning": "二国家解決論",
+  "english": "two-state solution"
+},
+{
+  "arabic": "رئيس الولايات المتحدة",
+  "meaning": "アメリカ合衆国大統領",
+  "english": "President of the United States"
+},
+{
+  "arabic": "البيت الأبيض",
+  "meaning": "ホワイトハウス",
+  "english": "White House"
+},
+{
+  "arabic": "الكونغرس الأمريكي",
+  "meaning": "米国議会",
+  "english": "United States Congress"
+},
+{
+  "arabic": "مجلس الشيوخ",
+  "meaning": "上院",
+  "english": "Senate"
+},
+{
+  "arabic": "مجلس النواب",
+  "meaning": "下院",
+  "english": "House of Representatives"
+},
+{
+  "arabic": "الحزب الجمهوري",
+  "meaning": "共和党",
+  "english": "Republican Party"
+},
+{
+  "arabic": "الحزب الديمقراطي",
+  "meaning": "民主党",
+  "english": "Democratic Party"
+},
+{
+  "arabic": "أمر تنفيذي",
+  "meaning": "大統領令",
+  "english": "Executive Order"
+},
+{
+  "arabic": "خطاب حالة الاتحاد",
+  "meaning": "一般教書演説",
+  "english": "State of the Union Address"
+},
+{
+  "arabic": "حق النقض",
+  "meaning": "拒否権",
+  "english": "veto"
+},
+{
+  "arabic": "انتخابات نصفية",
+  "meaning": "中間選挙",
+  "english": "midterm election"
+},
+{
+  "arabic": "وزارة الخارجية",
+  "meaning": "国務省",
+  "english": "U.S. Department of State"
+},
+{
+  "arabic": "وزارة الدفاع / البنتاغون",
+  "meaning": "国防総省（ペンタゴン）",
+  "english": "U.S. Department of Defense (Pentagon)"
+},
+{
+  "arabic": "وزارة الخزانة",
+  "meaning": "財務省",
+  "english": "U.S. Department of the Treasury"
+},
+{
+  "arabic": "مكتب التحقيقات الفيدرالي",
+  "meaning": "連邦捜査局（FBI）",
+  "english": "Federal Bureau of Investigation"
+},
+{
+  "arabic": "وكالة الأمن القومي الأمريكية",
+  "meaning": "国家安全保障局（NSA）",
+  "english": "National Security Agency"
+},
+{
+  "arabic": "وكالة المخابرات المركزية",
+  "meaning": "中央情報局（CIA）",
+  "english": "Central Intelligence Agency"
+},
+{
+  "arabic": "مجلِس الاحتياطي الاتحادي",
+  "meaning": "連邦準備制度理事会（FRB）",
+  "english": "Federal Reserve Board"
+},
+{
+  "arabic": "الإدارة الوطنية للملاحة الجوية والفضاء",
+  "meaning": "米航空宇宙局（NASA）",
+  "english": "National Aeronautics and Space Administration"
+},
+{
+  "arabic": "هيئة الأوراق المالية والبورصات",
+  "meaning": "証券取引委員会（SEC）",
+  "english": "U.S. Securities and Exchange Commission"
+},
+{
+  "arabic": "الوكالة الأمريكية للتنمية الدولية",
+  "meaning": "米国国際開発庁（USAID）",
+  "english": "U.S. Agency for International Development"
+},
+{
+  "arabic": "الاِتِّحاد القومي للأَسلِحة",
+  "meaning": "全米ライフル協会（NRA）",
+  "english": "National Rifle Association of America"
+},
+{
+  "arabic": "لَجنة الشُّؤون العامّة الأمريكية الإسرائيلية",
+  "meaning": "米・イスラエル公共問題委員会（AIPAC）",
+  "english": "American Israel Public Affairs Committee"
+},
+{
+  "arabic": "جريمة",
+  "meaning": "犯罪",
+  "english": "crime"
+},
+{
+  "arabic": "مجرم",
+  "meaning": "犯罪者",
+  "english": "criminal"
+},
+{
+  "arabic": "مشتبه فيه",
+  "meaning": "容疑者",
+  "english": "suspect"
+},
+{
+  "arabic": "قتل",
+  "meaning": "殺人",
+  "english": "murder"
+},
+{
+  "arabic": "قاتل",
+  "meaning": "殺人者",
+  "english": "murderer"
+},
+{
+  "arabic": "محاولة قتل",
+  "meaning": "殺人未遂",
+  "english": "attempted murder"
+},
+{
+  "arabic": "اغتصاب",
+  "meaning": "強姦",
+  "english": "rape"
+},
+{
+  "arabic": "حرق متعمد",
+  "meaning": "放火",
+  "english": "arson"
+},
+{
+  "arabic": "اختطاف",
+  "meaning": "誘拐",
+  "english": "kidnapping"
+},
+{
+  "arabic": "احتجاز رهائن",
+  "meaning": "人質事件",
+  "english": "hostage-taking"
+},
+{
+  "arabic": "القتل الخطأ",
+  "meaning": "過失致死",
+  "english": "accidental killing"
+},
+{
+  "arabic": "القيادة تحت تأثير الكحول",
+  "meaning": "飲酒運転",
+  "english": "drunk driving / DUI"
+},
+{
+  "arabic": "إيذاء بدني",
+  "meaning": "傷害",
+  "english": "physical abuse"
+},
+{
+  "arabic": "اعتداء",
+  "meaning": "暴行",
+  "english": "assault"
+},
+{
+  "arabic": "العنف الأسري",
+  "meaning": "家庭内暴力",
+  "english": "domestic violence"
+},
+{
+  "arabic": "إساءة معاملة الأطفال",
+  "meaning": "児童虐待",
+  "english": "child abuse"
+},
+{
+  "arabic": "بغاء",
+  "meaning": "売春",
+  "english": "prostitution"
+},
+{
+  "arabic": "الاتجار بالأشخاص",
+  "meaning": "人身売買",
+  "english": "human trafficking"
+},
+{
+  "arabic": "تهريب",
+  "meaning": "密輸",
+  "english": "smuggling"
+},
+{
+  "arabic": "مطارد",
+  "meaning": "ストーカー",
+  "english": "stalker"
+},
+{
+  "arabic": "مظاهرة",
+  "meaning": "デモ",
+  "english": "demonstration"
+},
+{
+  "arabic": "متظاهر",
+  "meaning": "デモ参加者",
+  "english": "demonstrator"
+},
+{
+  "arabic": "احتجاج",
+  "meaning": "抗議",
+  "english": "protest"
+},
+{
+  "arabic": "احتج",
+  "meaning": "抗議する",
+  "english": "to protest"
+},
+{
+  "arabic": "محتج",
+  "meaning": "抗議者",
+  "english": "protester"
+},
+{
+  "arabic": "إضراب",
+  "meaning": "ストライキ",
+  "english": "strike"
+},
+{
+  "arabic": "اعتصام",
+  "meaning": "座り込み",
+  "english": "sit-in"
+},
+{
+  "arabic": "شغب",
+  "meaning": "暴動",
+  "english": "riot"
+},
+{
+  "arabic": "قمع",
+  "meaning": "鎮圧する、弾圧する",
+  "english": "to crack down"
+},
+{
+  "arabic": "تدخل",
+  "meaning": "介入する",
+  "english": "to intervene"
+},
+{
+  "arabic": "فرق",
+  "meaning": "解散させる",
+  "english": "to disperse"
+},
+{
+  "arabic": "الغاز المدمع",
+  "meaning": "催涙ガス",
+  "english": "tear gas"
+},
+{
+  "arabic": "ناشط",
+  "meaning": "活動家",
+  "english": "activist"
+},
+{
+  "arabic": "طلب",
+  "meaning": "要求する",
+  "english": "to demand"
+},
+{
+  "arabic": "مسيرة",
+  "meaning": "行進",
+  "english": "march"
+},
+{
+  "arabic": "شعار",
+  "meaning": "スローガン",
+  "english": "slogan"
+},
+{
+  "arabic": "الشعب يريد إسقاط النظام",
+  "meaning": "民衆は体制崩壊を望んでいる",
+  "english": "The people want to bring down the regime"
+},
+{
+  "arabic": "مظاهرات سلمية",
+  "meaning": "平和的なデモ",
+  "english": "peaceful demonstration"
+},
+{
+  "arabic": "احتجاجات عنيفة",
+  "meaning": "暴力的な抗議",
+  "english": "violent protest"
+},
+{
+  "arabic": "إعلان حالة الطوارئ",
+  "meaning": "非常事態宣言",
+  "english": "declare a state of emergency"
+},
+{
+  "arabic": "حظر التجول",
+  "meaning": "外出禁止令",
+  "english": "curfew"
+},
+{
+  "arabic": "دبلوماسية",
+  "meaning": "外交",
+  "english": "diplomacy"
+},
+{
+  "arabic": "سياسة خارجية",
+  "meaning": "外交政策",
+  "english": "foreign policy"
+},
+{
+  "arabic": "وزارة الخارجية",
+  "meaning": "外務省",
+  "english": "Ministry of Foreign Affairs"
+},
+{
+  "arabic": "وزير الخارجية",
+  "meaning": "外相、外務大臣",
+  "english": "foreign minister"
+},
+{
+  "arabic": "دبلوماسي",
+  "meaning": "外交官",
+  "english": "diplomat"
+},
+{
+  "arabic": "سفارة",
+  "meaning": "大使館",
+  "english": "embassy"
+},
+{
+  "arabic": "سفير",
+  "meaning": "大使",
+  "english": "ambassador"
+},
+{
+  "arabic": "قنصلية عامة",
+  "meaning": "総領事館",
+  "english": "consulate general"
+},
+{
+  "arabic": "قنصل عام",
+  "meaning": "総領事",
+  "english": "consul general"
+},
+{
+  "arabic": "وفد",
+  "meaning": "代表者、使節",
+  "english": "delegation"
+},
+{
+  "arabic": "علاقات دبلوماسية",
+  "meaning": "外交関係",
+  "english": "diplomatic relations"
+},
+{
+  "arabic": "علاقة ثنائية",
+  "meaning": "二国間関係",
+  "english": "bilateral relation"
+},
+{
+  "arabic": "حصانة دبلوماسية",
+  "meaning": "外交特権",
+  "english": "diplomatic immunity"
+},
+{
+  "arabic": "استدعاء",
+  "meaning": "召還（呼び戻すこと）",
+  "english": "recall"
+},
+{
+  "arabic": "قطع علاقات دبلوماسية",
+  "meaning": "断交する",
+  "english": "to cut diplomatic ties"
+},
+{
+  "arabic": "شخص غير مرغوب فيه",
+  "meaning": "ペルソナ・ノン・グラータ",
+  "english": "persona non grata"
+},
+{
+  "arabic": "الأمم المتحدة",
+  "meaning": "国際連合",
+  "english": "the United Nations (UN)"
+},
+{
+  "arabic": "الجمعية العامة",
+  "meaning": "国連総会",
+  "english": "the General Assembly"
+},
+{
+  "arabic": "مجلس الأمن",
+  "meaning": "国連安保理",
+  "english": "the Security Council"
+},
+{
+  "arabic": "الأمين العام",
+  "meaning": "事務総長",
+  "english": "the Secretary General"
+},
+{
+  "arabic": "دولة عضو",
+  "meaning": "加盟国",
+  "english": "member state"
+},
+{
+  "arabic": "دولة غير عضو",
+  "meaning": "非加盟国",
+  "english": "non-member state"
+},
+{
+  "arabic": "عضو دائم",
+  "meaning": "常任理事国",
+  "english": "permanent member"
+},
+{
+  "arabic": "عضو غير دائم",
+  "meaning": "非常任理事国",
+  "english": "non-permanent member"
+},
+{
+  "arabic": "قرار",
+  "meaning": "決議",
+  "english": "resolution"
+},
+{
+  "arabic": "حق النقض",
+  "meaning": "拒否権",
+  "english": "veto"
+},
+{
+  "arabic": "الاتحاد الاوروبي",
+  "meaning": "欧州連合",
+  "english": "the European Union (EU)"
+},
+{
+  "arabic": "منظمة حلف شمال الأطلسي",
+  "meaning": "北大西洋条約機構（NATO）",
+  "english": "North Atlantic Treaty Organization (NATO)"
+},
+{
+  "arabic": "جامعة الدول العربية",
+  "meaning": "アラブ連盟",
+  "english": "the Arab League"
+},
+{
+  "arabic": "مجلس التعاون لدول الخليج العربية",
+  "meaning": "湾岸協力会議",
+  "english": "Gulf Cooperation Council (GCC)"
+},
+{
+  "arabic": "منظمة الدول المصدرة للنفط",
+  "meaning": "石油輸出国機構（OPEC）",
+  "english": "Organization of the Petroleum Exporting Countries"
+},
+{
+  "arabic": "صندوق النقد الدولي",
+  "meaning": "国際通貨基金（IMF）",
+  "english": "International Monetary Fund"
+},
+{
+  "arabic": "منظمة التجارة العالمية",
+  "meaning": "世界貿易機関（WTO）",
+  "english": "World Trade Organization"
+},
+{
+  "arabic": "منظمة الصحة العالمية",
+  "meaning": "世界保健機関（WHO）",
+  "english": "World Health Organization"
+},
+{
+  "arabic": "البنك الدولي",
+  "meaning": "世界銀行",
+  "english": "World Bank"
+},
+{
+  "arabic": "الوكالة الدولية للطاقة الذرية",
+  "meaning": "国際原子力機関（IAEA）",
+  "english": "International Atomic Energy Agency"
+},
+{
+  "arabic": "انتخابات",
+  "meaning": "選挙",
+  "english": "election"
+},
+{
+  "arabic": "انتخابات رئاسية",
+  "meaning": "大統領選挙",
+  "english": "Presidential election"
+},
+{
+  "arabic": "مرشح",
+  "meaning": "候補者",
+  "english": "candidate"
+},
+{
+  "arabic": "حملة",
+  "meaning": "選挙運動",
+  "english": "campaign"
+},
+{
+  "arabic": "ملصق",
+  "meaning": "ポスター",
+  "english": "poster"
+},
+{
+  "arabic": "اجتماع",
+  "meaning": "集会",
+  "english": "rally"
+},
+{
+  "arabic": "مؤيد",
+  "meaning": "支持者",
+  "english": "supporter"
+},
+{
+  "arabic": "ناخب",
+  "meaning": "有権者",
+  "english": "voter"
+},
+{
+  "arabic": "صوت",
+  "meaning": "票",
+  "english": "vote"
+},
+{
+  "arabic": "بطاقة الاقتراع",
+  "meaning": "投票用紙",
+  "english": "ballot paper"
+},
+{
+  "arabic": "مركز الاقتراع",
+  "meaning": "投票所",
+  "english": "polling station"
+},
+{
+  "arabic": "نسبة المشاركة",
+  "meaning": "投票率",
+  "english": "turnout"
+},
+{
+  "arabic": "استطلاع للرأي",
+  "meaning": "世論調査",
+  "english": "opinion poll"
+},
+{
+  "arabic": "نسبة تأييد",
+  "meaning": "支持率",
+  "english": "approval rating"
+},
+{
+  "arabic": "صوت",
+  "meaning": "投票する",
+  "english": "to vote"
+},
+{
+  "arabic": "مقعد",
+  "meaning": "議席",
+  "english": "seat"
+},
+{
+  "arabic": "أغلبية",
+  "meaning": "過半数",
+  "english": "majority"
+},
+{
+  "arabic": "فاز",
+  "meaning": "勝利する",
+  "english": "to win"
+},
+{
+  "arabic": "انتصار ساحق",
+  "meaning": "地滑り的勝利",
+  "english": "landslide victory"
+},
+{
+  "arabic": "سياسة",
+  "meaning": "政治",
+  "english": "politics"
+},
+{
+  "arabic": "حكومة",
+  "meaning": "政府",
+  "english": "government"
+},
+{
+  "arabic": "سياسي",
+  "meaning": "政治家",
+  "english": "politician"
+},
+{
+  "arabic": "حزب",
+  "meaning": "政党",
+  "english": "party"
+},
+{
+  "arabic": "برلمان",
+  "meaning": "国会、議会",
+  "english": "parliament"
+},
+{
+  "arabic": "عضو البرلمان",
+  "meaning": "国会議員",
+  "english": "member of parliament (MP)"
+},
+{
+  "arabic": "حزب حاكم",
+  "meaning": "与党",
+  "english": "ruling party"
+},
+{
+  "arabic": "حزب معارض",
+  "meaning": "野党",
+  "english": "opposition party"
+},
+{
+  "arabic": "رئيس الوزراء",
+  "meaning": "首相",
+  "english": "prime minister"
+},
+{
+  "arabic": "وزير",
+  "meaning": "大臣",
+  "english": "minister"
+},
+{
+  "arabic": "مجلس الوزراء",
+  "meaning": "内閣",
+  "english": "cabinet"
+},
+{
+  "arabic": "نظام",
+  "meaning": "体制",
+  "english": "regime"
+},
+{
+  "arabic": "سلطة",
+  "meaning": "当局",
+  "english": "authority"
+},
+{
+  "arabic": "حكومة فدرالية",
+  "meaning": "連邦政府",
+  "english": "federal government"
+},
+{
+  "arabic": "حكومة محلية",
+  "meaning": "地方政府",
+  "english": "local government"
+},
+{
+  "arabic": "حكومة ائتلافية",
+  "meaning": "連立政権",
+  "english": "coalition government"
+},
+{
+  "arabic": "حكومة مؤقتة",
+  "meaning": "暫定政府",
+  "english": "interim government"
+},
+{
+  "arabic": "حكومة انتقالية",
+  "meaning": "移行政府",
+  "english": "transitional government"
+},
+
+  {
+    "arabic": "قانون",
+    "meaning": "法律",
+    "english": "law"
+  },
+  {
+    "arabic": "دستور",
+    "meaning": "憲法",
+    "english": "constitution"
+  },
+  {
+    "arabic": "محكمة",
+    "meaning": "裁判所",
+    "english": "court"
+  },
+  {
+    "arabic": "محكمة عليا",
+    "meaning": "最高裁判所",
+    "english": "Supreme Court"
+  },
+  {
+    "arabic": "قاض",
+    "meaning": "裁判官",
+    "english": "judge"
+  },
+  {
+    "arabic": "محام",
+    "meaning": "弁護士",
+    "english": "lawyer"
+  },
+  {
+    "arabic": "نيابة عامة",
+    "meaning": "検察",
+    "english": "prosecution"
+  },
+  {
+    "arabic": "مدع عام",
+    "meaning": "検察官",
+    "english": "public prosecutor"
+  },
+  {
+    "arabic": "محلف",
+    "meaning": "陪審員",
+    "english": "juror"
+  },
+  {
+    "arabic": "دعوى قضائية",
+    "meaning": "訴訟",
+    "english": "lawsuit"
+  },
+  {
+    "arabic": "متهم",
+    "meaning": "被告",
+    "english": "defendant"
+  },
+  {
+    "arabic": "ضحية",
+    "meaning": "被害者",
+    "english": "victim"
+  },
+  {
+    "arabic": "شاهد",
+    "meaning": "証人",
+    "english": "witness"
+  },
+  {
+    "arabic": "جلسة المحكمة",
+    "meaning": "裁判の審理",
+    "english": "court session"
+  },
+  {
+    "arabic": "مرافعة",
+    "meaning": "弁論",
+    "english": "pleading"
+  },
+  {
+    "arabic": "إدانة",
+    "meaning": "有罪判決",
+    "english": "conviction"
+  },
+  {
+    "arabic": "براءة",
+    "meaning": "無罪判決",
+    "english": "acquittal"
+  },
+  {
+    "arabic": "عقوبة",
+    "meaning": "刑罰",
+    "english": "penalty"
+  },
+  {
+    "arabic": "السجن",
+    "meaning": "懲役／投獄",
+    "english": "imprisonment"
+  },
+  {
+    "arabic": "غرامة",
+    "meaning": "罰金",
+    "english": "fine"
+  },
+  {
+    "arabic": "عقوبة الإعدام",
+    "meaning": "死刑",
+    "english": "death penalty"
+  },
+  {
+    "arabic": "استئناف",
+    "meaning": "控訴・上訴",
+    "english": "appeal"
+  },
+  {
+    "arabic": "تسوية",
+    "meaning": "和解",
+    "english": "settlement"
+  },
+  {
+    "arabic": "قانون دولي",
+    "meaning": "国際法",
+    "english": "international law"
+  },
+  {
+    "arabic": "حقوق الإنسان",
+    "meaning": "人権",
+    "english": "human rights"
+  },
+  {
+    "arabic": "جيش",
+    "meaning": "軍隊",
+    "english": "army"
+  },
+  {
+    "arabic": "قوات مسلحة",
+    "meaning": "武装勢力／軍隊",
+    "english": "armed forces"
+  },
+  {
+    "arabic": "قوة جوية",
+    "meaning": "空軍",
+    "english": "air force"
+  },
+  {
+    "arabic": "قوة بحرية",
+    "meaning": "海軍",
+    "english": "navy"
+  },
+  {
+    "arabic": "قوات برية",
+    "meaning": "陸軍",
+    "english": "ground forces"
+  },
+  {
+    "arabic": "جندي",
+    "meaning": "兵士",
+    "english": "soldier"
+  },
+  {
+    "arabic": "ضابط",
+    "meaning": "将校",
+    "english": "officer"
+  },
+  {
+    "arabic": "قائد",
+    "meaning": "指揮官",
+    "english": "commander"
+  },
+  {
+    "arabic": "رتبة عسكرية",
+    "meaning": "階級",
+    "english": "military rank"
+  },
+  {
+    "arabic": "تجنيد",
+    "meaning": "徴兵",
+    "english": "conscription"
+  },
+  {
+    "arabic": "تسريح",
+    "meaning": "除隊",
+    "english": "discharge"
+  },
+  {
+    "arabic": "معسكر",
+    "meaning": "基地／軍営",
+    "english": "military camp"
+  },
+  {
+    "arabic": "سلاح",
+    "meaning": "武器",
+    "english": "weapon"
+  },
+  {
+    "arabic": "سلاح خفيف",
+    "meaning": "軽火器",
+    "english": "light weapon"
+  },
+  {
+    "arabic": "مدفعية",
+    "meaning": "大砲",
+    "english": "artillery"
+  },
+  {
+    "arabic": "دبابة",
+    "meaning": "戦車",
+    "english": "tank"
+  },
+  {
+    "arabic": "صاروخ",
+    "meaning": "ミサイル",
+    "english": "missile"
+  },
+  {
+    "arabic": "قصف",
+    "meaning": "砲撃・爆撃",
+    "english": "bombardment"
+  },
+  {
+    "arabic": "هجوم",
+    "meaning": "攻撃",
+    "english": "attack"
+  },
+  {
+    "arabic": "دفاع",
+    "meaning": "防衛",
+    "english": "defense"
+  },
+  {
+    "arabic": "اجتياح",
+    "meaning": "侵攻",
+    "english": "invasion"
+  },
+  {
+    "arabic": "احتلال",
+    "meaning": "占領",
+    "english": "occupation"
+  },
+  {
+    "arabic": "انسحاب",
+    "meaning": "撤退",
+    "english": "withdrawal"
+  },
+  {
+    "arabic": "اشتباك",
+    "meaning": "交戦",
+    "english": "clash"
+  },
+  {
+    "arabic": "هدنة",
+    "meaning": "停戦",
+    "english": "ceasefire"
+  },
+  {
+    "arabic": "حرب",
+    "meaning": "戦争",
+    "english": "war"
+  },
+  {
+    "arabic": "عملية عسكرية",
+    "meaning": "軍事作戦",
+    "english": "military operation"
+  },
+  {
+    "arabic": "قوات حفظ السلام",
+    "meaning": "平和維持部隊",
+    "english": "peacekeeping forces"
+  },
+
+  {
+    "arabic": "اقتصاد",
+    "meaning": "経済",
+    "english": "economy"
+  },
+  {
+    "arabic": "نمو اقتصادي",
+    "meaning": "経済成長",
+    "english": "economic growth"
+  },
+  {
+    "arabic": "انكماش اقتصادي",
+    "meaning": "景気後退",
+    "english": "economic recession"
+  },
+  {
+    "arabic": "ركود",
+    "meaning": "不況",
+    "english": "recession"
+  },
+  {
+    "arabic": "تضخم",
+    "meaning": "インフレ",
+    "english": "inflation"
+  },
+  {
+    "arabic": "انكماش نقدي",
+    "meaning": "デフレ",
+    "english": "deflation"
+  },
+  {
+    "arabic": "عملة",
+    "meaning": "通貨",
+    "english": "currency"
+  },
+  {
+    "arabic": "سعر الصرف",
+    "meaning": "為替レート",
+    "english": "exchange rate"
+  },
+  {
+    "arabic": "ناتج محلي إجمالي",
+    "meaning": "国内総生産（GDP）",
+    "english": "Gross Domestic Product (GDP)"
+  },
+  {
+    "arabic": "دخل",
+    "meaning": "所得",
+    "english": "income"
+  },
+  {
+    "arabic": "ضريبة",
+    "meaning": "税金",
+    "english": "tax"
+  },
+  {
+    "arabic": "الميزانية",
+    "meaning": "予算",
+    "english": "budget"
+  },
+  {
+    "arabic": "عجز الميزانية",
+    "meaning": "財政赤字",
+    "english": "budget deficit"
+  },
+  {
+    "arabic": "دين عام",
+    "meaning": "国債（公共債務）",
+    "english": "public debt"
+  },
+  {
+    "arabic": "استثمار",
+    "meaning": "投資",
+    "english": "investment"
+  },
+  {
+    "arabic": "سوق الأسهم",
+    "meaning": "株式市場",
+    "english": "stock market"
+  },
+  {
+    "arabic": "سهم",
+    "meaning": "株",
+    "english": "share / stock"
+  },
+  {
+    "arabic": "رأسمال",
+    "meaning": "資本",
+    "english": "capital"
+  },
+  {
+    "arabic": "البنك المركزي",
+    "meaning": "中央銀行",
+    "english": "central bank"
+  },
+  {
+    "arabic": "سعر الفائدة",
+    "meaning": "金利",
+    "english": "interest rate"
+  },
+  {
+    "arabic": "القطاع الخاص",
+    "meaning": "民間部門",
+    "english": "private sector"
+  },
+  {
+    "arabic": "القطاع العام",
+    "meaning": "公共部門",
+    "english": "public sector"
+  },
+  {
+    "arabic": "تجارة",
+    "meaning": "貿易",
+    "english": "trade"
+  },
+  {
+    "arabic": "تصدير",
+    "meaning": "輸出",
+    "english": "export"
+  },
+  {
+    "arabic": "استيراد",
+    "meaning": "輸入",
+    "english": "import"
+  },
+  {
+    "arabic": "عجز تجاري",
+    "meaning": "貿易赤字",
+    "english": "trade deficit"
+  },
+  {
+    "arabic": "فائض تجاري",
+    "meaning": "貿易黒字",
+    "english": "trade surplus"
+  }
+]

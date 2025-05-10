@@ -1,0 +1,1153 @@
+[
+  {
+    "arabic": "أنا",
+    "meaning": "私",
+    "english": "I"
+  },
+  {
+    "arabic": "أنتَ",
+    "meaning": "あなた（男性）",
+    "english": "You (male)"
+  },
+  {
+    "arabic": "أنتِ",
+    "meaning": "あなた（女性）",
+    "english": "You (female)"
+  },
+  {
+    "arabic": "هو",
+    "meaning": "彼",
+    "english": "He"
+  },
+  {
+    "arabic": "هي",
+    "meaning": "彼女",
+    "english": "She"
+  },
+  {
+    "arabic": "نحن",
+    "meaning": "私たち",
+    "english": "We"
+  },
+  {
+    "arabic": "هذا",
+    "meaning": "これ（男）",
+    "english": "This (masc.)"
+  },
+  {
+    "arabic": "هذه",
+    "meaning": "これ（女）",
+    "english": "This (fem.)"
+  },
+  {
+    "arabic": "ذلك",
+    "meaning": "あれ（男）",
+    "english": "That (masc.)"
+  },
+  {
+    "arabic": "تلك",
+    "meaning": "あれ（女）",
+    "english": "That (fem.)"
+  },
+  {
+    "arabic": "أب",
+    "meaning": "父",
+    "english": "Father"
+  },
+  {
+    "arabic": "أم",
+    "meaning": "母",
+    "english": "Mother"
+  },
+  {
+    "arabic": "جد",
+    "meaning": "祖父",
+    "english": "Grandfather"
+  },
+  {
+    "arabic": "جدة",
+    "meaning": "祖母",
+    "english": "Grandmother"
+  },
+  {
+    "arabic": "أخ",
+    "meaning": "兄弟",
+    "english": "Brother"
+  },
+  {
+    "arabic": "أخت",
+    "meaning": "姉妹",
+    "english": "Sister"
+  },
+  {
+    "arabic": "ابن",
+    "meaning": "息子",
+    "english": "Son"
+  },
+  {
+    "arabic": "ابنة",
+    "meaning": "娘",
+    "english": "Daughter"
+  },
+  {
+    "arabic": "زوج",
+    "meaning": "夫",
+    "english": "Husband"
+  },
+  {
+    "arabic": "زوجة",
+    "meaning": "妻",
+    "english": "Wife"
+  },
+  {
+    "arabic": "بيت",
+    "meaning": "家",
+    "english": "House"
+  },
+  {
+    "arabic": "غرفة",
+    "meaning": "部屋",
+    "english": "Room"
+  },
+  {
+    "arabic": "باب",
+    "meaning": "ドア",
+    "english": "Door"
+  },
+  {
+    "arabic": "مطبخ",
+    "meaning": "台所",
+    "english": "Kitchen"
+  },
+  {
+    "arabic": "سرير",
+    "meaning": "ベッド",
+    "english": "Bed"
+  },
+  {
+    "arabic": "مرحاض",
+    "meaning": "トイレ",
+    "english": "Toilet"
+  },
+  {
+    "arabic": "دش",
+    "meaning": "シャワー",
+    "english": "Shower"
+  },
+  {
+    "arabic": "أرض",
+    "meaning": "床",
+    "english": "Floor"
+  },
+  {
+    "arabic": "سقف",
+    "meaning": "天井",
+    "english": "Ceiling"
+  },
+  {
+    "arabic": "سطح",
+    "meaning": "屋根",
+    "english": "Roof"
+  },
+  {
+    "arabic": "كتاب",
+    "meaning": "本",
+    "english": "Book"
+  },
+  {
+    "arabic": "طاولة",
+    "meaning": "机",
+    "english": "Table"
+  },
+  {
+    "arabic": "قلم",
+    "meaning": "ペン",
+    "english": "Pen"
+  },
+  {
+    "arabic": "قاموس",
+    "meaning": "辞書",
+    "english": "Dictionary"
+  },
+  {
+    "arabic": "مجلة",
+    "meaning": "雑誌",
+    "english": "Magazine"
+  },
+  {
+    "arabic": "كمبيوتر",
+    "meaning": "コンピューター",
+    "english": "Computer"
+  },
+  {
+    "arabic": "جامعة",
+    "meaning": "大学",
+    "english": "University"
+  },
+  {
+    "arabic": "مدرسة",
+    "meaning": "学校",
+    "english": "School"
+  },
+  {
+    "arabic": "مسجد",
+    "meaning": "モスク",
+    "english": "Mosque"
+  },
+  {
+    "arabic": "حديقة",
+    "meaning": "公園",
+    "english": "Park"
+  },
+  {
+    "arabic": "مطار",
+    "meaning": "空港",
+    "english": "Airport"
+  },
+  {
+    "arabic": "بنك",
+    "meaning": "銀行",
+    "english": "Bank"
+  },
+  {
+    "arabic": "ملعب",
+    "meaning": "運動場",
+    "english": "Playground"
+  },
+  {
+    "arabic": "طالب",
+    "meaning": "学生",
+    "english": "Student"
+  },
+  {
+    "arabic": "أستاذ",
+    "meaning": "教授",
+    "english": "Professor"
+  },
+  {
+    "arabic": "معلم",
+    "meaning": "先生",
+    "english": "Teacher"
+  },
+  {
+    "arabic": "فصل",
+    "meaning": "教室",
+    "english": "Classroom"
+  },
+  {
+    "arabic": "سبورة",
+    "meaning": "黒板",
+    "english": "Blackboard"
+  },
+  {
+    "arabic": "ملعقة",
+    "meaning": "スプーン",
+    "english": "Spoon"
+  },
+  {
+    "arabic": "شوكة",
+    "meaning": "フォーク",
+    "english": "Fork"
+  },
+  {
+    "arabic": "سكين",
+    "meaning": "ナイフ",
+    "english": "Knife"
+  },
+  {
+    "arabic": "ملابس",
+    "meaning": "服",
+    "english": "Clothes"
+  },
+  {
+    "arabic": "حذاء",
+    "meaning": "靴",
+    "english": "Shoes"
+  },
+  {
+    "arabic": "سنة",
+    "meaning": "年",
+    "english": "Year"
+  },
+  {
+    "arabic": "شهر",
+    "meaning": "月（暦）",
+    "english": "Month"
+  },
+  {
+    "arabic": "يوم",
+    "meaning": "日",
+    "english": "Day"
+  },
+  {
+    "arabic": "يوم الإثنين",
+    "meaning": "月曜日",
+    "english": "Monday"
+  },
+  {
+    "arabic": "يوم الثلاثاء",
+    "meaning": "火曜日",
+    "english": "Tuesday"
+  },
+  {
+    "arabic": "يوم الأربعاء",
+    "meaning": "水曜日",
+    "english": "Wednesday"
+  },
+  {
+    "arabic": "يوم الخميس",
+    "meaning": "木曜日",
+    "english": "Thursday"
+  },
+  {
+    "arabic": "يوم الجمعة",
+    "meaning": "金曜日",
+    "english": "Friday"
+  },
+  {
+    "arabic": "يوم السبت",
+    "meaning": "土曜日",
+    "english": "Saturday"
+  },
+  {
+    "arabic": "يوم الأحد",
+    "meaning": "日曜日",
+    "english": "Sunday"
+  },
+  {
+    "arabic": "اليوم",
+    "meaning": "今日",
+    "english": "Today"
+  },
+  {
+    "arabic": "غداً",
+    "meaning": "明日",
+    "english": "Tomorrow"
+  },
+  {
+    "arabic": "أمس",
+    "meaning": "昨日",
+    "english": "Yesterday"
+  },
+  {
+    "arabic": "صباح",
+    "meaning": "朝",
+    "english": "Morning"
+  },
+  {
+    "arabic": "ظهر",
+    "meaning": "昼",
+    "english": "Noon"
+  },
+  {
+    "arabic": "مساء",
+    "meaning": "夜",
+    "english": "Evening"
+  },
+  {
+    "arabic": "الظهر",
+    "meaning": "正午",
+    "english": "Midday"
+  },
+  {
+    "arabic": "بعد الظهر",
+    "meaning": "午後",
+    "english": "Afternoon"
+  },
+  {
+    "arabic": "الآن",
+    "meaning": "今",
+    "english": "Now"
+  },
+  {
+    "arabic": "وقت",
+    "meaning": "時間",
+    "english": "Time"
+  },
+  {
+    "arabic": "دقيقة",
+    "meaning": "１分",
+    "english": "Minute"
+  },
+  {
+    "arabic": "ساعة",
+    "meaning": "時計、１時間",
+    "english": "Clock, Hour"
+  },
+  {
+    "arabic": "فصل",
+    "meaning": "季節",
+    "english": "Season"
+  },
+  {
+    "arabic": "الربيع",
+    "meaning": "春",
+    "english": "Spring"
+  },
+  {
+    "arabic": "الصيف",
+    "meaning": "夏",
+    "english": "Summer"
+  },
+  {
+    "arabic": "الخريف",
+    "meaning": "秋",
+    "english": "Autumn"
+  },
+  {
+    "arabic": "الشتاء",
+    "meaning": "冬",
+    "english": "Winter"
+  },
+  {
+    "arabic": "حار",
+    "meaning": "暑い",
+    "english": "Hot"
+  },
+  {
+    "arabic": "بارد",
+    "meaning": "寒い",
+    "english": "Cold"
+  },
+  {
+    "arabic": "طقس",
+    "meaning": "天気",
+    "english": "Weather"
+  },
+  {
+    "arabic": "ريح",
+    "meaning": "風",
+    "english": "Wind"
+  },
+  {
+    "arabic": "مطر",
+    "meaning": "雨",
+    "english": "Rain"
+  },
+  {
+    "arabic": "خريطة",
+    "meaning": "地図",
+    "english": "Map"
+  },
+  {
+    "arabic": "جبل",
+    "meaning": "山",
+    "english": "Mountain"
+  },
+  {
+    "arabic": "نهر",
+    "meaning": "川",
+    "english": "River"
+  },
+  {
+    "arabic": "بحر",
+    "meaning": "海",
+    "english": "Sea"
+  },
+  {
+    "arabic": "صحراء",
+    "meaning": "砂漠",
+    "english": "Desert"
+  },
+  {
+    "arabic": "جزيرة",
+    "meaning": "島",
+    "english": "Island"
+  },
+  {
+    "arabic": "واحة",
+    "meaning": "オアシス",
+    "english": "Oasis"
+  },
+  {
+    "arabic": "شجرة",
+    "meaning": "木",
+    "english": "Tree"
+  },
+  {
+    "arabic": "زهرة",
+    "meaning": "花",
+    "english": "Flower"
+  },
+  {
+    "arabic": "اليابان",
+    "meaning": "日本",
+    "english": "Japan"
+  },
+  {
+    "arabic": "طوكيو",
+    "meaning": "東京",
+    "english": "Tokyo"
+  },
+  {
+    "arabic": "حيوان",
+    "meaning": "動物",
+    "english": "Animal"
+  },
+  {
+    "arabic": "قط",
+    "meaning": "猫",
+    "english": "Cat"
+  },
+  {
+    "arabic": "كلب",
+    "meaning": "犬",
+    "english": "Dog"
+  },
+  {
+    "arabic": "خروف",
+    "meaning": "羊",
+    "english": "Sheep"
+  },
+  {
+    "arabic": "جمل",
+    "meaning": "ラクダ",
+    "english": "Camel"
+  },
+  {
+    "arabic": "بقرة",
+    "meaning": "牛",
+    "english": "Cow"
+  },
+  {
+    "arabic": "حصان",
+    "meaning": "馬",
+    "english": "Horse"
+  },
+  {
+    "arabic": "حمار",
+    "meaning": "ロバ",
+    "english": "Donkey"
+  },
+  {
+    "arabic": "لون",
+    "meaning": "色",
+    "english": "Color"
+  },
+  {
+    "arabic": "أحمر",
+    "meaning": "赤",
+    "english": "Red"
+  },
+  {
+    "arabic": "أسود",
+    "meaning": "黒",
+    "english": "Black"
+  },
+  {
+    "arabic": "أبيض",
+    "meaning": "白",
+    "english": "White"
+  },
+  {
+    "arabic": "أزرق",
+    "meaning": "青",
+    "english": "Blue"
+  },
+  {
+    "arabic": "أخضر",
+    "meaning": "緑",
+    "english": "Green"
+  },
+  {
+    "arabic": "أصفر",
+    "meaning": "黄",
+    "english": "Yellow"
+  },
+  {
+    "arabic": "وجه",
+    "meaning": "顔",
+    "english": "Face"
+  },
+  {
+    "arabic": "عين",
+    "meaning": "目",
+    "english": "Eye"
+  },
+  {
+    "arabic": "أنف",
+    "meaning": "鼻",
+    "english": "Nose"
+  },
+  {
+    "arabic": "فم",
+    "meaning": "口",
+    "english": "Mouth"
+  },
+  {
+    "arabic": "أذن",
+    "meaning": "耳",
+    "english": "Ear"
+  },
+  {
+    "arabic": "يد",
+    "meaning": "手",
+    "english": "Hand"
+  },
+  {
+    "arabic": "قدم",
+    "meaning": "足",
+    "english": "Foot"
+  },
+  {
+    "arabic": "قلب",
+    "meaning": "心臓",
+    "english": "Heart"
+  },
+  {
+    "arabic": "محاسب",
+    "meaning": "会計士",
+    "english": "Accountant"
+  },
+{
+  "arabic": "مهندس",
+  "meaning": "エンジニア",
+  "english": "Engineer"
+},
+{
+  "arabic": "تاجر",
+  "meaning": "商人",
+  "english": "Merchant"
+},
+{
+  "arabic": "فلاح",
+  "meaning": "農家の人",
+  "english": "Farmer"
+},
+{
+  "arabic": "طبيب",
+  "meaning": "医者",
+  "english": "Doctor"
+},
+{
+  "arabic": "مريض",
+  "meaning": "患者",
+  "english": "Patient"
+},
+{
+  "arabic": "مستشفى",
+  "meaning": "病院",
+  "english": "Hospital"
+},
+{
+  "arabic": "ممرض",
+  "meaning": "看護師",
+  "english": "Nurse"
+},
+{
+  "arabic": "دواء",
+  "meaning": "薬",
+  "english": "Medicine"
+},
+{
+  "arabic": "صيدلية",
+  "meaning": "薬局",
+  "english": "Pharmacy"
+},
+{
+  "arabic": "ماء",
+  "meaning": "水",
+  "english": "Water"
+},
+{
+  "arabic": "طعام",
+  "meaning": "食べ物",
+  "english": "Food"
+},
+{
+  "arabic": "خبز",
+  "meaning": "パン",
+  "english": "Bread"
+},
+{
+  "arabic": "أرز",
+  "meaning": "ご飯",
+  "english": "Rice"
+},
+{
+  "arabic": "لحم",
+  "meaning": "肉",
+  "english": "Meat"
+},
+{
+  "arabic": "سمك",
+  "meaning": "魚",
+  "english": "Fish"
+},
+{
+  "arabic": "خضار",
+  "meaning": "野菜",
+  "english": "Vegetables"
+},
+{
+  "arabic": "فاكهة",
+  "meaning": "果物",
+  "english": "Fruit"
+},
+{
+  "arabic": "حليب",
+  "meaning": "牛乳",
+  "english": "Milk"
+},
+{
+  "arabic": "شاي",
+  "meaning": "お茶",
+  "english": "Tea"
+},
+{
+  "arabic": "قهوة",
+  "meaning": "コーヒー",
+  "english": "Coffee"
+},
+{
+  "arabic": "سوبرماركت",
+  "meaning": "スーパー",
+  "english": "Supermarket"
+},
+{
+  "arabic": "محل",
+  "meaning": "店",
+  "english": "Shop"
+},
+{
+  "arabic": "مال",
+  "meaning": "お金",
+  "english": "Money"
+},
+
+{
+  "arabic": "سعر",
+  "meaning": "値段",
+  "english": "Price"
+},
+{
+  "arabic": "رقم",
+  "meaning": "数字",
+  "english": "Number"
+},
+{
+  "arabic": "اسم",
+  "meaning": "名前",
+  "english": "Name"
+},
+{
+  "arabic": "دولة",
+  "meaning": "国",
+  "english": "Country"
+},
+{
+  "arabic": "لغة",
+  "meaning": "言語",
+  "english": "Language"
+},
+{
+  "arabic": "يذهب",
+  "meaning": "行く",
+  "english": "Go"
+},
+{
+  "arabic": "يأتي",
+  "meaning": "来る",
+  "english": "Come"
+},
+{
+  "arabic": "يأكل",
+  "meaning": "食べる",
+  "english": "Eat"
+},
+{
+  "arabic": "يشرب",
+  "meaning": "飲む",
+  "english": "Drink"
+},
+{
+  "arabic": "يرى",
+  "meaning": "見る",
+  "english": "See"
+},
+
+{
+  "arabic": "يسمع",
+  "meaning": "聞く",
+  "english": "Hear"
+},
+{
+  "arabic": "يقرأ",
+  "meaning": "読む",
+  "english": "Read"
+},
+{
+  "arabic": "يكتب",
+  "meaning": "書く",
+  "english": "Write"
+},
+{
+  "arabic": "يتكلم / يتحدث",
+  "meaning": "話す",
+  "english": "Speak / Talk"
+},
+{
+  "arabic": "يدرس",
+  "meaning": "勉強する",
+  "english": "Study"
+},
+{
+  "arabic": "يعلم",
+  "meaning": "教える",
+  "english": "Teach"
+},
+{
+  "arabic": "يعمل",
+  "meaning": "働く",
+  "english": "Work"
+},
+{
+  "arabic": "يسكن",
+  "meaning": "住む",
+  "english": "Live (reside)"
+},
+{
+  "arabic": "يعرف",
+  "meaning": "知っている",
+  "english": "Know"
+},
+{
+  "arabic": "يفهم",
+  "meaning": "わかる",
+  "english": "Understand"
+},
+
+ {
+  "arabic": "يحب",
+  "meaning": "好き",
+  "english": "Like / Love"
+},
+{
+  "arabic": "يريد",
+  "meaning": "欲しい",
+  "english": "Want"
+},
+{
+  "arabic": "يشتري",
+  "meaning": "買う",
+  "english": "Buy"
+},
+{
+  "arabic": "يبيع",
+  "meaning": "売る",
+  "english": "Sell"
+},
+{
+  "arabic": "ينتظر",
+  "meaning": "待つ",
+  "english": "Wait"
+},
+{
+  "arabic": "تفاح",
+  "meaning": "りんご",
+  "english": "Apple"
+},
+{
+  "arabic": "موز",
+  "meaning": "バナナ",
+  "english": "Banana"
+},
+{
+  "arabic": "برتقال",
+  "meaning": "オレンジ",
+  "english": "Orange"
+},
+{
+  "arabic": "عنب",
+  "meaning": "ぶどう",
+  "english": "Grapes"
+},
+{
+  "arabic": "ليمون",
+  "meaning": "レモン",
+  "english": "Lemon"
+},
+
+{
+  "arabic": "فراولة",
+  "meaning": "いちご",
+  "english": "Strawberry"
+},
+{
+  "arabic": "بطيخ",
+  "meaning": "スイカ",
+  "english": "Watermelon"
+},
+{
+  "arabic": "شمام",
+  "meaning": "メロン",
+  "english": "Melon"
+},
+{
+  "arabic": "أناناس",
+  "meaning": "パイナップル",
+  "english": "Pineapple"
+},
+{
+  "arabic": "رمان",
+  "meaning": "ざくろ",
+  "english": "Pomegranate"
+},
+{
+  "arabic": "جزر",
+  "meaning": "にんじん",
+  "english": "Carrot"
+},
+{
+  "arabic": "بصل",
+  "meaning": "たまねぎ",
+  "english": "Onion"
+},
+{
+  "arabic": "بطاطس",
+  "meaning": "じゃがいも",
+  "english": "Potato"
+},
+{
+  "arabic": "طماطم",
+  "meaning": "トマト",
+  "english": "Tomato"
+},
+{
+  "arabic": "خيار",
+  "meaning": "きゅうり",
+  "english": "Cucumber"
+},
+{
+  "arabic": "ملفوف",
+  "meaning": "キャベツ",
+  "english": "Cabbage"
+},
+
+{
+  "arabic": "سبانخ",
+  "meaning": "ほうれん草",
+  "english": "Spinach"
+},
+{
+  "arabic": "باذنجان",
+  "meaning": "なす",
+  "english": "Eggplant"
+},
+{
+  "arabic": "ثوم",
+  "meaning": "にんにく",
+  "english": "Garlic"
+},
+{
+  "arabic": "فلفل",
+  "meaning": "ピーマン",
+  "english": "Bell pepper"
+},
+{
+  "arabic": "مرحباً",
+  "meaning": "こんにちは",
+  "english": "Hello"
+},
+{
+  "arabic": "صباح الخير",
+  "meaning": "おはようございます",
+  "english": "Good morning"
+},
+{
+  "arabic": "صباح النور",
+  "meaning": "（返答）おはよう",
+  "english": "Good morning (response)"
+},
+{
+  "arabic": "مساء الخير",
+  "meaning": "こんばんは",
+  "english": "Good evening"
+},
+{
+  "arabic": "مساء النور",
+  "meaning": "（返答）こんばんは",
+  "english": "Good evening (response)"
+},
+{
+  "arabic": "تصبح على خير",
+  "meaning": "おやすみなさい",
+  "english": "Good night"
+},
+{
+  "arabic": "مع السلامة",
+  "meaning": "さようなら",
+  "english": "Goodbye"
+},
+{
+  "arabic": "إلى اللقاء",
+  "meaning": "また会いましょう",
+  "english": "See you again"
+},
+{
+  "arabic": "كيف حالك؟",
+  "meaning": "お元気ですか？",
+  "english": "How are you?"
+},
+{
+  "arabic": "بخير",
+  "meaning": "元気です",
+  "english": "I'm fine"
+},
+{
+  "arabic": "نعم",
+  "meaning": "はい",
+  "english": "Yes"
+},
+{
+  "arabic": "لا",
+  "meaning": "いいえ",
+  "english": "No"
+},
+{
+  "arabic": "شكراً",
+  "meaning": "ありがとう",
+  "english": "Thank you"
+},
+{
+  "arabic": "العفو",
+  "meaning": "どういたしまして",
+  "english": "You're welcome"
+},
+{
+  "arabic": "من فضلك",
+  "meaning": "お願いします",
+  "english": "Please"
+},
+{
+  "arabic": "آسف / آسفة",
+  "meaning": "ごめんなさい",
+  "english": "I'm sorry"
+},
+{
+  "arabic": "لا أفهم",
+  "meaning": "わかりません",
+  "english": "I don't understand"
+},
+{
+  "arabic": "أفهم",
+  "meaning": "わかります",
+  "english": "I understand"
+},
+
+{
+  "arabic": "أعد من فضلك",
+  "meaning": "もう一度言ってください",
+  "english": "Please say it again"
+},
+{
+  "arabic": "ما اسمك؟",
+  "meaning": "名前は何ですか？",
+  "english": "What is your name?"
+},
+{
+  "arabic": "اسمي ～",
+  "meaning": "私の名前は～です",
+  "english": "My name is ～"
+},
+{
+  "arabic": "أنا ياباني / يابانية",
+  "meaning": "日本人です",
+  "english": "I am Japanese"
+},
+{
+  "arabic": "هل تتكلم الإنجليزية؟",
+  "meaning": "英語を話せますか？",
+  "english": "Do you speak English?"
+},
+{
+  "arabic": "أتكلم قليلاً",
+  "meaning": "少し話せます",
+  "english": "I speak a little"
+},
+{
+  "arabic": "تكلم ببطء من فضلك",
+  "meaning": "ゆっくり話してください",
+  "english": "Please speak slowly"
+},
+{
+  "arabic": "من فضلك",
+  "meaning": "お願いします",
+  "english": "Please"
+},
+{
+  "arabic": "لا بأس",
+  "meaning": "大丈夫です",
+  "english": "It's okay"
+},
+{
+  "arabic": "لا مشكلة",
+  "meaning": "問題ありません",
+  "english": "No problem"
+},
+{
+  "arabic": "رائع!",
+  "meaning": "すごい！",
+  "english": "Great!"
+},
+{
+  "arabic": "السلام عليكم",
+  "meaning": "あなたがたの上に平安あれ",
+  "english": "Peace be upon you"
+},
+{
+  "arabic": "قطار",
+  "meaning": "電車",
+  "english": "Train"
+},
+{
+  "arabic": "سيارة",
+  "meaning": "車",
+  "english": "Car"
+},
+{
+  "arabic": "حافلة",
+  "meaning": "バス",
+  "english": "Bus"
+},
+{
+  "arabic": "دراجة",
+  "meaning": "自転車",
+  "english": "Bicycle"
+},
+{
+  "arabic": "دراجة نارية",
+  "meaning": "バイク",
+  "english": "Motorcycle"
+},
+{
+  "arabic": "تاكسي",
+  "meaning": "タクシー",
+  "english": "Taxi"
+},
+{
+  "arabic": "طائرة",
+  "meaning": "飛行機",
+  "english": "Airplane"
+},
+{
+  "arabic": "سفينة",
+  "meaning": "船",
+  "english": "Ship"
+},
+{
+  "arabic": "قارب",
+  "meaning": "ボート",
+  "english": "Boat"
+},
+{
+  "arabic": "مترو",
+  "meaning": "地下鉄",
+  "english": "Subway"
+},
+{
+  "arabic": "شاحنة",
+  "meaning": "トラック",
+  "english": "Truck"
+}
+]

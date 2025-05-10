@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アラビア語タイピング練習</title>
+  <link rel="icon" type="image/png" href="favicon1.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--BGM（非表示で再生）-->
+  <audio id="bgm" src="sounds/desert-beats-arabic-style-music-oud-and-guitar-335846.mp3" loop></audio>
+
+<!--白い背景ボックス-->
+<div class="content-box">
+
+  <!--ゲーム情報表示-->
+  <h2 id="levelDisplay"></h2>
+  <div id="progress"></div>
+  <div id="timer"></div>
+
+  <!--タイピング単語と意味-->
+  <h1 id="wordDisplay">Loading...</h1>
+  <div id="meaningDisplay"></div>
+
+  <!--ユーザー入力欄-->
+  <input type="text" id="inputBox" autocomplete="off" />
+  <p id="enterHint" class="enter-hint"></p>
+
+  <!--結果表示-->
+  <div id="result"></div>
+  <div id="score"></div>
+
+  <!--戻るボタン-->
+  <button id="btnReturn" onclick="location.href='index.html'"></button>
+
+  <!-- BGMクレジット表記 -->
+  <p class="credit">
+    Music by <a href="https://pixabay.com/ja/users/kaazoom-448850/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=335846">Paul Winter</a>
+    from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=335846">Pixabay</a>
+  </p>
+
+</div>
+
+<!--フッター-->
+<footer>
+  Created by 
+  <a href="https://x.com/makach_menha" target="_blank">
+    アラビア単語道場
+  </a>
+</footer>
+
+<!--スクリプト読み込み-->
+<script src="game.js"></script>
+
+</body>
+</html>

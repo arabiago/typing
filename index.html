@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アラビア語タイピング練習</title>
+  <link rel="icon" type="image/png" href="favicon1.png">
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  
+<!--言語切り替えボタン-->
+<div class="language-buttons">
+  <button class="lang-button" data-lang="en" id="btnEn">English</button>
+  <button class="lang-button" data-lang="ja" id="btnJa">日本語</button>
+</div>
+
+<!--メインコンテンツボックス-->
+<div class="content-box">
+  <h1 id="mainTitle">アラビア語タイピング練習！</h1>
+
+  <!--レベル選択ボタン-->
+  <button id="btnLevel1" onclick="startGame('level1')">アルファベット</button>
+  <button id="btnLevel2" onclick="startGame('level2')">初級</button>
+  <button id="btnLevel3" onclick="startGame('level3')">中級</button>
+  <button id="btnLevel4" onclick="startGame('level4')">上級</button>
+
+  <!--注意書き-->
+  <p id="noteSound" style="color: red; text-align: center;"></p>
+</div>
+
+<!--フッター-->
+<footer>
+  Created by 
+  <a href="https://x.com/makach_menha" target="_blank">
+    アラビア単語道場
+  </a>
+</footer>
+
+<!--スクリプト読み込み-->
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+[
+  {
+    "arabic": "ا",
+    "meaning": "アリフ",
+    "english": "Alif"
+  },
+  {
+    "arabic": "ب",
+    "meaning": "バー",
+    "english": "Ba"
+  },
+  {
+    "arabic": "ت",
+    "meaning": "ター",
+    "english": "Ta"
+  },
+  {
+    "arabic": "ث",
+    "meaning": "サー",
+    "english": "Tha"
+  },
+  {
+    "arabic": "ج",
+    "meaning": "ジーム",
+    "english": "Jim"
+  },
+  {
+    "arabic": "ح",
+    "meaning": "ハー（Ha）",
+    "english": "Ha"
+  },
+  {
+    "arabic": "خ",
+    "meaning": "ハー（kha）",
+    "english": "Kha"
+  },
+  {
+    "arabic": "د",
+    "meaning": "ダール",
+    "english": "Dal"
+  },
+  {
+    "arabic": "ذ",
+    "meaning": "ザール（dhal）",
+    "english": "Dhal"
+  },
+  {
+    "arabic": "ر",
+    "meaning": "ラー（ra）",
+    "english": "Ra"
+  },
+  {
+    "arabic": "ز",
+    "meaning": "ザーイ",
+    "english": "Zay"
+  },
+  {
+    "arabic": "س",
+    "meaning": "スィーン",
+    "english": "Sin"
+  },
+  {
+    "arabic": "ش",
+    "meaning": "シーン",
+    "english": "Shin"
+  },
+  {
+    "arabic": "ص",
+    "meaning": "サーッド",
+    "english": "Sad"
+  },
+  {
+    "arabic": "ض",
+    "meaning": "ダーッド",
+    "english": "Dad"
+  },
+  {
+    "arabic": "ط",
+    "meaning": "ター（強）",
+    "english": "Ta (emphatic)"
+  },
+  {
+    "arabic": "ظ",
+    "meaning": "ザー（強）",
+    "english": "Zha (emphatic)"
+  },
+  {
+    "arabic": "ع",
+    "meaning": "アイン",
+    "english": "Ayin"
+  },
+  {
+    "arabic": "غ",
+    "meaning": "ガイン",
+    "english": "Ghayn"
+  },
+  {
+    "arabic": "ف",
+    "meaning": "ファー",
+    "english": "Fa"
+  },
+  {
+    "arabic": "ق",
+    "meaning": "カーフ（qaf）",
+    "english": "Qaf"
+  },
+  {
+    "arabic": "ك",
+    "meaning": "カーフ（kaf）",
+    "english": "Kaf"
+  },
+  {
+    "arabic": "ل",
+    "meaning": "ラーム（laam）",
+    "english": "Lam"
+  },
+  {
+    "arabic": "م",
+    "meaning": "ミーム",
+    "english": "Mim"
+  },
+  {
+    "arabic": "ن",
+    "meaning": "ヌーン（nuun）",
+    "english": "Nun"
+  },
+  {
+    "arabic": "ه",
+    "meaning": "ハー",
+    "english": "Ha"
+  },
+  {
+    "arabic": "و",
+    "meaning": "ワーウ",
+    "english": "Waw"
+  },
+  {
+    "arabic": "ي",
+    "meaning": "ヤー",
+    "english": "Ya"
+  },
+    {
+    "arabic": "ة",
+    "meaning": "ター・マルブータ",
+    "english": "taa marbuuTa"
+  }
+]

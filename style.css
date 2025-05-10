@@ -1,0 +1,206 @@
+/* ----------------------
+    共通スタイルシート
+------------------------*/
+
+body {
+  background-image: url('bgimage1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(0.95); 
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh; /* 最低限の高さを確保 */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+  /* 白背景の半透明ボックス（index・game共通） */
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 600px;
+    max-width: 90%;
+  }
+
+  /* アラビア語の単語表示などにも共通して使える大見出し */
+  h1, #wordDisplay {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  /* 問題数・タイマーの表示 */
+  #levelDisplay, #progress, #timer {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+
+  /* 日本語意味の表示 */
+  #meaningDisplay {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+  }
+ 
+  /* ユーザーが入力するテキストボックス */
+  #inputBox {
+    font-size: 1.5em;
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* 不正解時のメッセージ色 */
+  .correct {
+    color: green;
+    font-weight: bold;
+  }
+
+  .incorrect {
+    color: red;
+    font-weight: bold;
+  }
+
+  /* 結果表示とスコア表示：共通設定 */
+  #result {
+    font-size: 1.2em;
+    font-weight: bold; 
+    margin: 10px;
+    min-height: 3em;
+    overflow: visible;
+  }
+
+  #score {
+    font-size: 1.1em;
+    margin: 20px 10px 10px;  
+    min-height: 3em;
+    overflow: visible;
+  }
+
+/* 共通ボタンスタイル */
+button {
+  font-size: 1.2em;
+  padding: 12px 24px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #0b006d;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5a9bd6;
+}
+
+  /* 言語切替ボタン（右上配置） */
+  .language-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+  }
+
+  /* 言語ボタン専用デザイン（サイズが小さい） */
+  .lang-button {
+    font-size: 0.8em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #00233f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .lang-button:hover {
+    background-color: #5a9bd6;
+  }
+
+/*フッター*/
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #555;
+}
+
+
+/*レスポンシブ対応：スマホ画面*/
+@media (max-width: 600px) {
+
+  /* 共通レイアウト調整 */
+  .content-box {
+    padding: 20px;
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 10px;
+  }
+
+  button {
+    font-size: 1.1em;
+    padding: 12px 20px;
+    width: 80%;
+    max-width: 300px;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding: 10px;
+  }
+
+  /* game.html 専用調整 */
+  #wordDisplay {
+    font-size: 2em;
+  }
+
+  #meaningDisplay {
+    font-size: 1em;
+  }
+
+  #inputBox {
+    font-size: 1.2em;
+    width: 90%;
+  }
+
+  #levelDisplay,
+  #progress,
+  #timer {
+    font-size: 1em;
+  }
+}
