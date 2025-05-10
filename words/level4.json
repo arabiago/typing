@@ -71,7 +71,7 @@
   },
   {
     "arabic": "كما تدين تدان",
-    "meaning": "自業自得。",
+    "meaning": "あなたがしたように、あなたもされる（因果応報）",
     "english": "As you sow, so shall you reap."
   },
   {
@@ -90,7 +90,7 @@
     "english": "There is a brother born not of your mother."
   },
   {
-    "arabic": "إذا تمّ العقل قلّ الكلام",
+    "arabic": "إذا تمّ العقل نقص الكلام",
     "meaning": "賢者は多くを語らず。",
     "english": "When wisdom is complete, words are few."
   },
@@ -98,5 +98,195 @@
     "arabic": "الجار قبل الدار",
     "meaning": "家より隣人を選べ。",
     "english": "Choose your neighbor before your house."
+  },
+  {
+    "arabic": "كلام كالعسل وفعل كالأسل",
+    "meaning": "言葉は蜂蜜のよう、行いは刃物のよう。",
+    "english": "Sweet words, but bitter actions."
+  },
+  {
+    "arabic": "إن سرقت، اسرق جمل، وإن عشقت، اعشق قمر",
+    "meaning": "盗むならラクダを、恋するなら月を（目標は高く）",
+    "english": "If you steal, steal a camel; if you love, love the moon."
+  },
+  {
+    "arabic": "لا ناقة لي فيها ولا جمل",
+    "meaning": "それに関して私にはまったく関係がない。",
+    "english": "I have neither a she-camel nor a camel in it."
+  },
+  {
+    "arabic": "الجايات أحسن من الرايحات",
+    "meaning": "去ったものより、これから来るものの方が良い。",
+    "english": "What's coming is better than what's gone."
+  },
+  {
+    "arabic": "احذر عدوك مرة وصديقك ألف مرة",
+    "meaning": "敵には一度、友には千度用心せよ。",
+    "english": "Beware of your enemy once and your friend a thousand times."
+  },
+  {
+    "arabic": "اللي ميعرفش يقول عدس",
+    "meaning": "事情を知らない人が的外れなことを言う。",
+    "english": "He who doesn’t know says “lentils.”"
+  },
+  {
+    "arabic": "عدو عاقل خير من صديق جاهل",
+    "meaning": "愚かな味方より賢い敵の方がまし。",
+    "english": "A wise enemy is better than a foolish friend."
+  },
+  {
+    "arabic": "فلما استد ساعده رماني",
+    "meaning": "恩を仇で返された（彼が的を狙えるようになると私を射た）",
+    "english": "When his arm became strong, he threw me away."
+  },
+  {
+    "arabic": "عادت حليمة إلى عادتها القديمة",
+    "meaning": "結局また元に戻った。",
+    "english": "Halima went back to her old habits."
+  },
+  {
+    "arabic": "يعلم من أين تؤكل الكتف",
+    "meaning": "要領を心得ている人。",
+    "english": "He knows where the shoulder is eaten from."
+  },
+    {
+    "arabic": "اسمع جعجعة ولا ارى طحنا",
+    "meaning": "口ばかりで行動がない。",
+    "english": "I hear the noise, but I see no flour."
+  },
+  {
+    "arabic": "يوم لك ويوم عليك",
+    "meaning": "人生山あり谷あり。",
+    "english": "A day for you and a day against you."
+  },
+  {
+    "arabic": "القانون لا يحمي المغفلين",
+    "meaning": "法は愚か者を守らない。",
+    "english": "The law does not protect fools."
+  },
+  {
+    "arabic": "ذل من لا سيف له",
+    "meaning": "剣なき者は屈辱を受ける。",
+    "english": "He who has no sword is humiliated."
+  },
+  {
+    "arabic": "لكل جواد كبوة",
+    "meaning": "どんな名馬にもつまずきがある。",
+    "english": "Even the best horse stumbles."
+  },
+  {
+    "arabic": "المركب اللي ليها ريسين تغرق",
+    "meaning": "船頭多くして船山に登る。",
+    "english": "A boat with two captains sinks."
+  },
+  {
+    "arabic": "لو حبيبك عسل خلي منه وسل",
+    "meaning": "好きな人が蜂蜜なら少しずつ舐めなさい。",
+    "english": "Even if your beloved is honey, don't lick too much."
+  },
+  {
+    "arabic": "من الاول البيضة او الدجاجة",
+    "meaning": "卵が先か、ニワトリが先か。",
+    "english": "Which came first, the chicken or the egg?"
+  },
+  {
+    "arabic": "الشجرة المثمرة ترمى بالحجارة",
+    "meaning": "実りの多い木ほど石を投げられる（優れた人ほど批判される）。",
+    "english": "The fruitful tree gets stoned."
+  },
+ {
+    "arabic": "الحيطان لها اذان",
+    "meaning": "壁に耳あり。",
+    "english": "The walls have ears."
+  },
+  {
+    "arabic": "علي وعلى اعدائي",
+    "meaning": "死なばもろとも。",
+    "english": "Me and my enemies (let us all fall together)."
+  },
+  {
+    "arabic": "اذا اردت ان تطاع فامر بما يستطاع",
+    "meaning": "従わせたいなら実行可能な命令を。",
+    "english": "If you want to be obeyed, command what is possible."
+  },
+  {
+    "arabic": "بين حانا ومانا ضاعت لحانا",
+    "meaning": "あっちでもこっちでも迷って全部失う。",
+    "english": "Between Hana and Mana, my beard was lost."
+  },
+  {
+    "arabic": "العين بصيرة واليد قصيرة",
+    "meaning": "見えているのに手が届かない。",
+    "english": "The eye sees but the hand is short."
+  },
+  {
+    "arabic": "اللي استحوا ماتوا",
+    "meaning": "恥を知る者は滅びた（恥知らずばかり残った）。",
+    "english": "Those who felt shame have died."
+  },
+  {
+    "arabic": "مصائب قوم عند قوم فوائد",
+    "meaning": "一方の不幸は他方の利益。",
+    "english": "One people's misfortune is another's gain."
+  },
+  {
+    "arabic": "اوفى من السموأل",
+    "meaning": "サマウアルほど忠義に厚い（究極の忠誠）。",
+    "english": "More loyal than Al-Samaw'al."
+  },
+  {
+    "arabic": "من حفر حفرة لاخيه وقع فيها",
+    "meaning": "兄弟に落とし穴を掘る者が自分で落ちる。",
+    "english": "He who digs a hole for his brother falls into it."
+  },
+  {
+    "arabic": "الكلاب تنبح والقافلة تسير",
+    "meaning": "犬は吠えてもキャラバンは進む。",
+    "english": "The dogs bark, but the caravan moves on."
+  },
+  {
+    "arabic": "ما حك جلدك مثل ظفرك",
+    "meaning": "あなたの爪のように皮膚の痒みを掻けるものはない（自力が一番）。",
+    "english": "Nothing scratches your skin like your own nail."
+  },
+  {
+    "arabic": "اذا هبت رياحك فاغتنمها",
+    "meaning": "風が吹いたらそれを掴め（好機を逃すな）。",
+    "english": "When the wind blows, seize it."
+  },
+  {
+    "arabic": "لا يضر السحاب نبح الكلاب",
+    "meaning": "雲は犬の吠え声に傷つかない。",
+    "english": "The barking of dogs doesn’t harm the clouds."
+  },
+  {
+    "arabic": "اختلط الحابل بالنابل",
+    "meaning": "混乱して何が何だか分からない。",
+    "english": "Confusion between the hunter and the archer."
+  },
+  {
+    "arabic": "اذا كان الكلام من فضة فالسكوت من ذهب",
+    "meaning": "話すことが銀なら沈黙は金。",
+    "english": "If speech is silver, silence is golden."
+  },
+  {
+    "arabic": "من زرع حصد",
+    "meaning": "耕す者は収穫する。",
+    "english": "He who sows, reaps."
+  },
+  {
+    "arabic": "المال الحرام لا يدوم",
+    "meaning": "不正に得た金は長続きしない。",
+    "english": "Illicit money does not last."
+  },
+  {
+    "arabic": "القرد في عين امه غزال",
+    "meaning": "母の目には猿もガゼル（親バカ）。",
+    "english": "A monkey is a gazelle in its mother’s eyes."
+  },
+  {
+    "arabic": "اكبر منك بيوم اعلم منك بسنة",
+    "meaning": "一日年上なら一年分の知恵がある。",
+    "english": "One day older than you, one year wiser than you."
   }
   ]

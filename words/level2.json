@@ -1020,7 +1020,7 @@
   "english": "Please"
 },
 {
-  "arabic": "آسف / آسفة",
+  "arabic": "آسف",
   "meaning": "ごめんなさい",
   "english": "I'm sorry"
 },
@@ -1046,14 +1046,14 @@
   "english": "What is your name?"
 },
 {
-  "arabic": "اسمي ～",
+  "arabic": "اسمي",
   "meaning": "私の名前は～です",
-  "english": "My name is ～"
+  "english": "My name is..."
 },
 {
-  "arabic": "أنا ياباني / يابانية",
-  "meaning": "日本人です",
-  "english": "I am Japanese"
+  "arabic": "أنا ياباني",
+  "meaning": "日本人（男性）です",
+  "english": "I am Japanese(m)"
 },
 {
   "arabic": "هل تتكلم الإنجليزية؟",
