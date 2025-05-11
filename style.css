@@ -59,24 +59,33 @@ body {
     padding: 10px;
     width: 60%;
     max-width: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
   }
 
-  /* 不正解時のメッセージ色 */
+  #enterHint {
+    font-size: 0.8em;
+    color:#555;
+    margin-bottom: 30px;
+  }
+
+  /* 正解時のメッセージ色 */
   .correct {
+    font-size: 1.0em;
     color: green;
     font-weight: bold;
   }
 
+  /* 不正解時のメッセージ色 */
   .incorrect {
+    font-size: 1.0em;
     color: red;
     font-weight: bold;
   }
 
   /* 結果表示とスコア表示：共通設定 */
   #result {
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: bold; 
     margin: 10px;
     min-height: 3em;
@@ -88,6 +97,11 @@ body {
     margin: 20px 10px 10px;  
     min-height: 3em;
     overflow: visible;
+  }
+
+  #bgmCredit {
+    font-size: 0.8em;
+    color:#555;
   }
 
 /* 共通ボタンスタイル */
@@ -212,25 +226,25 @@ footer a:hover {
   /* 共通レイアウト調整 */
   .content-box {
     padding: 20px;
-    width: 70%;
+    width: 80%;
     box-sizing: border-box;
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     margin: 20px 10px;
   }
 
   button {
-    font-size: 1.0em;
+    font-size: 0.9em;
     padding: 12px 20px;
     width: 80%;
     max-width: 300px;
   }
 
   #noteSound {
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
 
  .mascot-container {
@@ -269,7 +283,7 @@ footer a:hover {
   #levelDisplay,
   #progress,
   #timer {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
 }

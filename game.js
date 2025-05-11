@@ -8,6 +8,8 @@ let correctCount = 0;
 let wordList = [];
 let startTime;
 let translations;
+let lang;
+let isBgmOn = true;
 
 // BGMと効果音（正誤判定時）の読み込み
 const bgm = document.getElementById('bgm');
@@ -18,31 +20,26 @@ const incorrectSound = new Audio("sounds/incorrect.mp3");
 
 // BGMフェードイン再生
 function fadeInBGM(targetVolume = 0.3, step = 0.01, interval = 100) {
-  bgm.play();
-  const fadeIn = setInterval(() => {
-    if (bgm.volume < targetVolume) {
-      bgm.volume = Math.min(bgm.volume + step, targetVolume);
-    } else {
-      clearInterval(fadeIn);
-    }
-  }, interval);
+  if (bgm.paused) {
+    bgm.volume = 0;
+    bgm.play().catch(err => console.warn("BGM再生に失敗:", err));
+    const fadeIn = setInterval(() => {
+      if (bgm.volume < targetVolume) {
+        bgm.volume = Math.min(bgm.volume + step, targetVolume);
+      } else {
+        clearInterval(fadeIn);
+      }
+    }, interval);
+  }
 }
 
-// BGMフェードアウト停止
-function fadeOutBGM(step = 0.01, interval = 100) {
-  const fadeOut = setInterval(() => {
-    if (bgm.volume > 0) {
-      bgm.volume = Math.max(bgm.volume - step, 0);
-    } else {
-      clearInterval(fadeOut);
-      bgm.pause();
-      bgm.currentTime = 0;
-    }
-  }, interval);
+// BGM即時停止
+function stopBGM() {
+  bgm.pause();
+  bgm.currentTime = 0;
 }
 
-
-// 配列をシャッフルする関数（簡易版）
+// 配列をシャッフルする関数
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
@@ -93,11 +90,7 @@ function setLanguage(lang) {
 // ▼ 4. 初期化処理（ページ読み込み時）
 
 window.addEventListener('load', async () => {
-  setTimeout(() => {
-    fadeInBGM();
-  }, 1000);
-  
-  const lang = localStorage.getItem('lang') || 'ja';
+  lang = localStorage.getItem('lang') || 'ja';
   const level = localStorage.getItem("level");
 
   const [wordData, langData] = await Promise.all([
@@ -105,28 +98,43 @@ window.addEventListener('load', async () => {
     fetch('lang.json').then(res => res.json())
   ]);
 
-    //ランダムに10問表示
-    wordList = shuffle(wordData).slice(0, 10);
-    translations = langData;
-    setLanguage(lang);
-    startTime = Date.now();
-    showWord();
+  wordList = shuffle(wordData).slice(0, 10);
+  translations = langData;
+  setLanguage(lang);
+  startTime = Date.now();
+  showWord();
 
-    // Enterキーで回答チェック
-    document.getElementById("inputBox").addEventListener("keydown", function (event) {
-        if (event.key === "Enter") checkAnswer();
-    });
+  const btnBgm = document.getElementById("btnToggleBgm");
+  btnBgm.textContent = translations[lang]["btn_bgm_on"];
+  btnBgm.addEventListener("click", () => {
+    if (isBgmOn) {
+      stopBGM();
+      btnBgm.textContent = translations[lang]["btn_bgm_off"];
+    } else {
+      fadeInBGM();
+      btnBgm.textContent = translations[lang]["btn_bgm_on"];
+    }
+    isBgmOn = !isBgmOn;
+  });
+
+  document.getElementById("inputBox").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") checkAnswer();
+  });
+
+  setTimeout(() => {
+    if (localStorage.getItem('playBGM') === 'true') {
+      fadeInBGM();
+      localStorage.removeItem('playBGM');
+    }
+  }, 1000);
 });
 
 // ▼ 5. 単語を表示して入力を促す
 
-// 単語を画面に表示（1問ごと）
 function showWord() {
   if (currentIndex >= 10) {
     const seconds = Math.floor((Date.now() - startTime) / 1000);
-    const lang = localStorage.getItem("lang") || "ja";
 
-    // 得点に応じてメッセージ変更
     let message = "";
     if (correctCount === 10) {
       message = window.localizedText.msg_perfect;
@@ -136,7 +144,6 @@ function showWord() {
       message = window.localizedText.msg_retry;
     }
 
-    // 結果メッセージの多言語対応
     const template = window.localizedText.resultTemplate || `10問中{correct}問正解です！`;
     const scoreLine = template.replace('{correct}', correctCount); 
     const timeLine = window.localizedText.elapsedTime.replace('{seconds}', seconds);
@@ -150,23 +157,20 @@ function showWord() {
     document.getElementById("wordDisplay").innerText = "";
     document.getElementById("meaningDisplay").innerText = "";
     document.getElementById("progress").innerText = "";
-    fadeOutBGM();
+    stopBGM();
     return;
-    } 
+  }
 
-   // 画面リセットとBGM停止
-    const word = wordList[currentIndex];
-    const lang = localStorage.getItem("lang") || "ja";
+  const word = wordList[currentIndex];
 
-    // 通常表示処理
-    document.getElementById("wordDisplay").innerText = word.arabic;
-    document.getElementById("meaningDisplay").innerText =
-        (lang === "en" ? "Meaning: " : "意味：") + (lang === "en" ? word.english : word.meaning);
-    document.getElementById("inputBox").value = "";
-    document.getElementById("result").innerText = "";
-    document.getElementById("progress").innerText = `${window.localizedText.questionLabel} ${currentIndex + 1} / 10`;
-    document.getElementById("inputBox").focus();
-    }
+  document.getElementById("wordDisplay").innerText = word.arabic;
+  document.getElementById("meaningDisplay").innerText =
+    (lang === "en" ? "Meaning: " : "意味：") + (lang === "en" ? word.english : word.meaning);
+  document.getElementById("inputBox").value = "";
+  document.getElementById("result").innerText = "";
+  document.getElementById("progress").innerText = `${window.localizedText.questionLabel} ${currentIndex + 1} / 10`;
+  document.getElementById("inputBox").focus();
+}
 
 // ▼ 6. 入力された回答をチェックして判定
 

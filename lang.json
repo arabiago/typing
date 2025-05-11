@@ -19,7 +19,9 @@
     "msg_good": "いいですね！その調子でがんばってください！",
     "msg_retry": "また挑戦してね！",
     "elapsedTime": "経過時間：{seconds}秒",
-    "game_return": "HOMEに戻る"
+    "game_return": "HOMEに戻る",
+    "btn_bgm_off": "BGM再開",
+    "btn_bgm_on": "BGM停止"
   },
   "en": {
     "title": "Arabic Typing Practice",
@@ -41,6 +43,8 @@
     "msg_good": "Nice! Keep up the good work!",
     "msg_retry": "Try again next time!",
     "elapsedTime": "Time: {seconds} sec",
-    "game_return": "Return to HOME"
+    "game_return": "Return to HOME",
+    "btn_bgm_off": "Resume BGM",
+    "btn_bgm_on": "Stop BGM"
   }
 }

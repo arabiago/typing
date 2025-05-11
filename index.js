@@ -14,10 +14,17 @@ langButtons.forEach(button => {
 });
 
 // ゲームレベル選択処理
-function startGame(level) {
-  localStorage.setItem('level', level);
-  window.location.href = 'game.html';
-}
+  function startGame(level) {
+    localStorage.setItem('level', level);
+
+    // ユーザー操作後にBGM再生用フラグをセット
+    localStorage.setItem('playBGM', 'true');
+
+    // 1秒後にgame.htmlへ遷移
+    setTimeout(() => {
+      window.location.href = 'game.html';
+    }, 1000);
+  }
 
 // 言語ファイルを読み込んでトップ画面に反映
 const lang = localStorage.getItem('lang') || 'ja';
