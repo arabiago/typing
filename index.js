@@ -31,4 +31,5 @@ fetch('lang.json')
     document.getElementById('btnLevel3').textContent = texts.level3;
     document.getElementById('btnLevel4').textContent = texts.level4;
     document.getElementById('noteSound').textContent = texts.note_Sound;
+    document.getElementById('balloon').innerHTML = texts.balloon;
   });

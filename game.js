@@ -93,7 +93,10 @@ function setLanguage(lang) {
 // ▼ 4. 初期化処理（ページ読み込み時）
 
 window.addEventListener('load', async () => {
-  fadeInBGM();
+  setTimeout(() => {
+    fadeInBGM();
+  }, 1000);
+  
   const lang = localStorage.getItem('lang') || 'ja';
   const level = localStorage.getItem("level");
 

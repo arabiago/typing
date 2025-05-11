@@ -29,7 +29,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 600px;
+    width: 800px;
     max-width: 90%;
   }
 
@@ -98,13 +98,13 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 8px;
-  background-color: #0b006d;
+  background-color: #002442;
   color: white;
   transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #5a9bd6;
+  background-color: #d65a5a;
 }
 
   /* 言語切替ボタン（右上配置） */
@@ -122,15 +122,65 @@ button:hover {
     font-size: 0.8em;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #00233f;
+    background-color: #002442;
     color: white;
     border: none;
     cursor: pointer;
   }
 
   .lang-button:hover {
-    background-color: #5a9bd6;
+    background-color: #d65a5a;
   }
+
+  /*　キャラクター表示 */
+.mascot-container {
+  position: fixed;          /* スクロールしても固定 */
+  bottom: 20px;             /* 画面下から20px */
+  right: 20px;              /* 画面右から20px */
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  z-index: 1000;
+  flex-direction: row-reverse; /* 吹き出しを左側に配置 */
+}
+
+.mascot {
+  width: 200px;              /* 画像サイズ調整 */
+}
+
+/* 吹き出し */
+
+.balloon {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #ffffff;
+  border: 2px solid #002442;
+  border-radius: 15px;
+  position: relative;
+  transform: translateY(-100px); /* 30px上に移動 */
+}
+
+.balloon::after {
+  content: "▶";
+  position: absolute;
+  right: -0.9em; /* 吹き出しの右外に配置 */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #002442;
+  font-size: 1.2em;
+}
+
+.balloon p {
+  margin: 0;
+  padding: 0;
+}
+
 
 /*フッター*/
 footer {
@@ -157,30 +207,48 @@ footer a:hover {
 
 
 /*レスポンシブ対応：スマホ画面*/
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
   /* 共通レイアウト調整 */
   .content-box {
     padding: 20px;
-    width: 90%;
+    width: 70%;
     box-sizing: border-box;
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     margin: 20px 10px;
   }
 
   button {
-    font-size: 1.1em;
+    font-size: 1.0em;
     padding: 12px 20px;
     width: 80%;
     max-width: 300px;
   }
 
+  #noteSound {
+    font-size: 0.5em;
+  }
+
+ .mascot-container {
+    bottom: 10px;
+    right: 10px;
+    gap: 6px;
+  }
+
+  .mascot {
+    width: 100px; /* 小さくする */
+  }
+
+  .balloon {
+    display: none;
+  }
+
   footer {
-    font-size: 0.8em;
+    font-size: 0.5em;
     padding: 10px;
   }
 
@@ -203,4 +271,5 @@ footer a:hover {
   #timer {
     font-size: 1em;
   }
+
 }
