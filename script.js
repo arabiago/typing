@@ -37,9 +37,7 @@ async function loadWords(level) {
     return [];
   }
 
-  const response = await fetch(`${filePath}?_=${Date.now()}`); // キャッシュ回避
-  const data = await response.json();
-  return data || [];
+  return await fetch(filePath).then(res => res.json()); //キャッシュ
 }
 
 // BGMフェードイン
