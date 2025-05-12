@@ -95,8 +95,13 @@
   "english": "Fatah"
 },
 {
-  "arabic": "حركة المقاومة الإسلامية (حركة حماس)",
-  "meaning": "ハマース（イスラム抵抗運動）",
+  "arabic": "حركة المقاومة الإسلامية",
+  "meaning": "イスラム抵抗運動（ハマス正式名称）",
+  "english": "Islamic Resistance Movement(Hamas)"
+},
+{
+  "arabic": "حركة حماس",
+  "meaning": "ハマス",
   "english": "Hamas (Islamic Resistance Movement)"
 },
 {
