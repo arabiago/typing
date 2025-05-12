@@ -511,7 +511,7 @@
   "english": "U.S. Department of State"
 },
 {
-  "arabic": "وزارة الدفاع / البنتاغون",
+  "arabic": "البنتاغون",
   "meaning": "国防総省（ペンタゴン）",
   "english": "U.S. Department of Defense (Pentagon)"
 },
@@ -745,6 +745,11 @@
   "meaning": "スローガン",
   "english": "slogan"
 },
+  {
+    "arabic": "الربيع العربي",
+    "meaning": "アラブの春",
+    "english": "Arab Spring"
+  },
 {
   "arabic": "الشعب يريد إسقاط النظام",
   "meaning": "民衆は体制崩壊を望んでいる",
@@ -1227,9 +1232,9 @@
     "english": "penalty"
   },
   {
-    "arabic": "السجن",
-    "meaning": "懲役／投獄",
-    "english": "imprisonment"
+    "arabic": "سجن",
+    "meaning": "刑務所",
+    "english": "jail"
   },
   {
     "arabic": "غرامة",
@@ -1303,7 +1308,7 @@
   },
   {
     "arabic": "رتبة عسكرية",
-    "meaning": "階級",
+    "meaning": "軍階級",
     "english": "military rank"
   },
   {
@@ -1536,5 +1541,146 @@
     "arabic": "فائض تجاري",
     "meaning": "貿易黒字",
     "english": "trade surplus"
+  },
+    {
+    "arabic": "مؤامرة",
+    "meaning": "陰謀、共謀",
+    "english": "conspiracy"
+  },
+   {
+    "arabic": "محور المقاومة",
+    "meaning": "抵抗の枢軸",
+    "english": "Axis of Resistance"
+  },
+  {
+    "arabic": "الحوثيون",
+    "meaning": "フーシー派",
+    "english": "Houthis"
+  },
+  {
+    "arabic": "أنصار الله",
+    "meaning": "アンサールッラー（神の支持者たち）",
+    "english": "Ansar Allah"
+  },
+  {
+    "arabic": "حزب الله",
+    "meaning": "ヒズブッラー（神の党）",
+    "english": "Hezbollah"
+  },
+    {
+    "arabic": "نهر الليطاني",
+    "meaning": "リタニ川",
+    "english": "Litani River"
+  },
+  {
+    "arabic": "جنوب لبنان",
+    "meaning": "南レバノン",
+    "english": "South Lebanon"
+  },
+  {
+    "arabic": "الخط الأزرق",
+    "meaning": "ブルーライン（国連が定めた停戦ライン）",
+    "english": "Blue Line"
+  },
+  {
+    "arabic": "قصف مدفعي",
+    "meaning": "砲撃",
+    "english": "artillery shelling"
+  },
+  {
+    "arabic": "انتهاك المجال الجوي",
+    "meaning": "領空侵犯",
+    "english": "airspace violation"
+  },
+  {
+    "arabic": "الجيش اللبناني",
+    "meaning": "レバノン軍",
+    "english": "Lebanese Army"
+  },
+  {
+    "arabic": "اليونيفيل",
+    "meaning": "国連レバノン暫定駐留軍（UNIFIL）",
+    "english": "United Nations / UNIFIL"
+  },
+  {
+    "arabic": "تهريب عبر الحدود",
+    "meaning": "国境を越えた密輸",
+    "english": "cross-border smuggling"
+  },
+  {
+    "arabic": "الضاحية الجنوبية",
+    "meaning": "ダーヒエ地区（ベイルート南郊南郊）",
+    "english": "Southern Suburbs (Dahiyeh)"
+  },
+  {
+    "arabic": "الحرب الأهلية السورية",
+    "meaning": "シリア内戦",
+    "english": "Syrian Civil War"
+  },
+  {
+    "arabic": "هيئة تحرير الشام",
+    "meaning": "シャーム解放機構（HTS）",
+    "english": "Hay'at Tahrir al-Sham (HTS)"
+  },
+  {
+    "arabic": "سجن صيدنايا",
+    "meaning": "サイドナヤ刑務所",
+    "english": "Saydnaya Prison"
+  },
+    {
+    "arabic": "تعذيب",
+    "meaning": "拷問",
+    "english": "torture"
+  },
+  {
+    "arabic": "نظام الأسد",
+    "meaning": "アサド政権",
+    "english": "Assad regime"
+  },
+    {
+    "arabic": "المخابرات",
+    "meaning": "ムハーバラート（諜報機関）",
+    "english": "Mukhabarat (intelligence service)"
+  },
+  {
+    "arabic": "الشبيحة",
+    "meaning": "シャッビーハ（親政権系民兵・暴徒）",
+    "english": "Shabiha (pro-regime thugs/militias)"
+  },
+  {
+    "arabic": "اللاجئون السوريون",
+    "meaning": "シリア難民",
+    "english": "Syrian refugees"
+  },
+  {
+    "arabic": "الثورة",
+    "meaning": "革命",
+    "english": "revolution"
+  },
+    {
+    "arabic": "داعش",
+    "meaning": "イスラム国（IS）",
+    "english": "ISIS / Daesh"
+  },
+  {
+    "arabic": "إرهابي",
+    "meaning": "テロリスト",
+    "english": "terrorist"
+  },
+  {
+    "arabic": "تفجير انتحاري",
+    "meaning": "自爆、自爆攻撃",
+    "english": "suicide bombing"
+  },
+    {
+    "arabic": "جماعة مسلحة",
+    "meaning": "武装組織",
+    "english": "armed group"
+  },
+  {
+    "arabic": "تنظيم إرهابي",
+    "meaning": "テロ組織",
+    "english": "terrorist organization"
   }
+
 ]
