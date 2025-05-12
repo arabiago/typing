@@ -480,6 +480,202 @@
     "english": "Tokyo"
   },
   {
+    "arabic": "مصر",
+    "meaning": "エジプト",
+    "english": "Egypt"
+  },
+  {
+    "arabic": "القاهرة",
+    "meaning": "カイロ",
+    "english": "Cairo"
+  },
+  {
+    "arabic": "السعودية",
+    "meaning": "サウジアラビア",
+    "english": "Saudi Arabia"
+  },
+  {
+    "arabic": "الرياض",
+    "meaning": "リヤド",
+    "english": "Riyadh"
+  },
+  {
+    "arabic": "الإمارات",
+    "meaning": "アラブ首長国連邦",
+    "english": "United Arab Emirates"
+  },
+  {
+    "arabic": "دبي",
+    "meaning": "ドバイ",
+    "english": "Dubai"
+  },
+ {
+    "arabic": "أبو ظبي",
+    "meaning": "アブダビ",
+    "english": "Abu Dhabi"
+  },
+  {
+    "arabic": "لبنان",
+    "meaning": "レバノン",
+    "english": "Lebanon"
+  },
+  {
+    "arabic": "بيروت",
+    "meaning": "ベイルート",
+    "english": "Beirut"
+  },
+  {
+    "arabic": "المغرب",
+    "meaning": "モロッコ",
+    "english": "Morocco"
+  },
+  {
+    "arabic": "الرباط",
+    "meaning": "ラバト",
+    "english": "Rabat"
+  },
+   {
+    "arabic": "تونس",
+    "meaning": "チュニジア",
+    "english": "Tunisia"
+  },
+  {
+    "arabic": "تونس",
+    "meaning": "チュニス（首都）",
+    "english": "Tunis"
+  },
+  {
+    "arabic": "الجزائر",
+    "meaning": "アルジェリア",
+    "english": "Algeria"
+  },
+  {
+    "arabic": "الجزائر",
+    "meaning": "アルジェ（首都）",
+    "english": "Algiers"
+  },
+  {
+    "arabic": "العراق",
+    "meaning": "イラク",
+    "english": "Iraq"
+  },
+  {
+    "arabic": "بغداد",
+    "meaning": "バグダッド",
+    "english": "Baghdad"
+  },
+  {
+    "arabic": "سوريا",
+    "meaning": "シリア",
+    "english": "Syria"
+  },
+  {
+    "arabic": "دمشق",
+    "meaning": "ダマスカス",
+    "english": "Damascus"
+  },
+  {
+    "arabic": "الأردن",
+    "meaning": "ヨルダン",
+    "english": "Jordan"
+  },
+  {
+    "arabic": "عمّان",
+    "meaning": "アンマン",
+    "english": "Amman"
+  },
+  {
+    "arabic": "السودان",
+    "meaning": "スーダン",
+    "english": "Sudan"
+  },
+  {
+    "arabic": "الخرطوم",
+    "meaning": "ハルツーム",
+    "english": "Khartoum"
+  },
+  {
+    "arabic": "اليمن",
+    "meaning": "イエメン",
+    "english": "Yemen"
+  },
+  {
+    "arabic": "صنعاء",
+    "meaning": "サヌア",
+    "english": "Sanaa"
+  },
+  {
+    "arabic": "قطر",
+    "meaning": "カタール",
+    "english": "Qatar"
+  },
+  {
+    "arabic": "الدوحة",
+    "meaning": "ドーハ",
+    "english": "Doha"
+  },
+  {
+    "arabic": "عمان",
+    "meaning": "オマーン",
+    "english": "Oman"
+  },
+  {
+    "arabic": "مسقط",
+    "meaning": "マスカット",
+    "english": "Muscat"
+  },
+  {
+    "arabic": "البحرين",
+    "meaning": "バーレーン",
+    "english": "Bahrain"
+  },
+  {
+    "arabic": "المنامة",
+    "meaning": "マナーマ",
+    "english": "Manama"
+  },
+
+  {
+    "arabic": "ليبيا",
+    "meaning": "リビア",
+    "english": "Libya"
+  },
+  {
+    "arabic": "طرابلس",
+    "meaning": "トリポリ",
+    "english": "Tripoli"
+  },
+  {
+    "arabic": "فلسطين",
+    "meaning": "パレスチナ",
+    "english": "Palestine"
+  },
+  {
+    "arabic": "القدس",
+    "meaning": "エルサレム",
+    "english": "Jerusalem"
+  },
+  {
+    "arabic": "موريتانيا",
+    "meaning": "モーリタニア",
+    "english": "Mauritania"
+  },
+  {
+    "arabic": "نواكشوط",
+    "meaning": "ヌアクショット",
+    "english": "Nouakchott"
+  },
+  {
+    "arabic": "جيبوتي",
+    "meaning": "ジブチ",
+    "english": "Djibouti"
+  },
+  {
+    "arabic": "مدينة جيبوتي",
+    "meaning": "ジブチ市",
+    "english": "Djibouti City"
+  },
+  {
     "arabic": "حيوان",
     "meaning": "動物",
     "english": "Animal"
@@ -782,9 +978,9 @@
   "english": "Write"
 },
 {
-  "arabic": "يتكلم / يتحدث",
+  "arabic": "يتكلم",
   "meaning": "話す",
-  "english": "Speak / Talk"
+  "english": "Speak"
 },
 {
   "arabic": "يدرس",
@@ -804,7 +1000,7 @@
 {
   "arabic": "يسكن",
   "meaning": "住む",
-  "english": "Live (reside)"
+  "english": "Live"
 },
 {
   "arabic": "يعرف",
