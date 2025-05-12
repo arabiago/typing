@@ -1,5 +1,175 @@
 [
   {
+  "arabic": "القضية الفلسطينية",
+  "meaning": "パレスチナ問題",
+  "english": "Palestinian issue"
+},
+{
+  "arabic": "الصراع الفلسطيني الإسرائيلي",
+  "meaning": "パレスチナ・イスラエル紛争",
+  "english": "Israeli-Palestinian conflict"
+},
+{
+  "arabic": "الحركة الصهيونية",
+  "meaning": "シオニズム運動",
+  "english": "Zionist movement"
+},
+{
+  "arabic": "اتفاقية سايكس بيكو",
+  "meaning": "サイクス・ピコ協定（1916年）",
+  "english": "Sykes–Picot Agreement"
+},
+{
+  "arabic": "وعد بلفور",
+  "meaning": "バルフォア宣言（1917年）",
+  "english": "Balfour Declaration"
+},
+{
+  "arabic": "قرار تقسيم فلسطين",
+  "meaning": "パレスチナ分割決議（1947年）",
+  "english": "UN Partition Plan for Palestine"
+},
+{
+  "arabic": "النكبة",
+  "meaning": "ナクバ（大災厄）",
+  "english": "1948 Palestinian exodus (Nakba)"
+},
+{
+  "arabic": "لاجئون فلسطينيون",
+  "meaning": "パレスチナ難民",
+  "english": "Palestine refugees"
+},
+{
+  "arabic": "الضفة الغربية",
+  "meaning": "ヨルダン川西岸",
+  "english": "West Bank"
+},
+{
+  "arabic": "قطاع غزة",
+  "meaning": "ガザ地区",
+  "english": "Gaza Strip"
+},
+{
+  "arabic": "العدوان الثلاثي",
+  "meaning": "「三国の敵対」",
+  "english": "Tripartite Aggression"
+},
+{
+  "arabic": "أزمة السويس",
+  "meaning": "「スエズ危機」",
+  "english": "Suez Crisis"
+},
+{
+  "arabic": "حرب سيناء",
+  "meaning": "「シナイ戦争」",
+  "english": "Sinai War"
+},
+{
+  "arabic": "تأميم قناة السويس",
+  "meaning": "スエズ運河の国有化",
+  "english": "Nationalization of the Suez Canal"
+},
+{
+  "arabic": "نكسة حزيران",
+  "meaning": "「6月の敗北」",
+  "english": "Naksah (Setback of June)"
+},
+{
+  "arabic": "حرب الأيام الستة",
+  "meaning": "「6日間戦争」",
+  "english": "Six-Day War"
+},
+{
+  "arabic": "القدس الشرقية",
+  "meaning": "東エルサレム",
+  "english": "East Jerusalem"
+},
+{
+  "arabic": "منظمة التحرير الفلسطينية",
+  "meaning": "パレスチナ解放機構（PLO）",
+  "english": "Palestine Liberation Organization"
+},
+{
+  "arabic": "حركة فتح",
+  "meaning": "ファタハ運動",
+  "english": "Fatah"
+},
+{
+  "arabic": "حركة المقاومة الإسلامية (حركة حماس)",
+  "meaning": "ハマース（イスラム抵抗運動）",
+  "english": "Hamas (Islamic Resistance Movement)"
+},
+{
+  "arabic": "كتائب الشهيد عز الدين القسام",
+  "meaning": "アルカッサーム旅団",
+  "english": "Izz ad-Din al-Qassam Brigades"
+},
+{
+  "arabic": "أيلول الأسود",
+  "meaning": "黒い九月（ヨルダン内戦）",
+  "english": "Black September"
+},
+{
+  "arabic": "الجبهة الشعبية لتحرير فلسطين",
+  "meaning": "パレスチナ人民解放戦線（PFLP）",
+  "english": "Popular Front for the Liberation of Palestine"
+},
+{
+  "arabic": "الحرب الأهلية اللبنانية",
+  "meaning": "レバノン内戦",
+  "english": "Lebanese Civil War"
+},
+{
+  "arabic": "الانتفاضة الفلسطينية الأولى",
+  "meaning": "第一次インティファーダ",
+  "english": "First Intifada"
+},
+{
+  "arabic": "انتفاضة الحجارة",
+  "meaning": "「石のインティファーダ」",
+  "english": "Stone Intifada"
+},
+{
+  "arabic": "اتفاقية أوسلو",
+  "meaning": "オスロ合意",
+  "english": "Oslo Accord"
+},
+{
+  "arabic": "السلطة الفلسطينية",
+  "meaning": "パレスチナ当局（PA）",
+  "english": "Palestinian Authority"
+},
+{
+  "arabic": "الانتفاضة الفلسطينية الثانية",
+  "meaning": "第二次インティファーダ",
+  "english": "Second Intifada"
+},
+{
+  "arabic": "انتفاضة الأقصى",
+  "meaning": "アルアクサー・インティファーダ",
+  "english": "Al-Aqsa Intifada"
+},
+{
+  "arabic": "جدار الفصل العنصري",
+  "meaning": "分離壁",
+  "english": "apartheid wall / West Bank barrier"
+},
+{
+  "arabic": "حاجز",
+  "meaning": "検問所",
+  "english": "checkpoint"
+},
+{
+  "arabic": "حق العودة للاجئين الفلسطينيين",
+  "meaning": "パレスチナ難民の帰還権",
+  "english": "Palestinian right of return"
+},
+{
+  "arabic": "حل الدولتين",
+  "meaning": "二国家解決論",
+  "english": "two-state solution"
+},
+  {
     "arabic": "نفط",
     "meaning": "石油",
     "english": "petroleum"
@@ -279,196 +449,7 @@
   "meaning": "アトラス山脈",
   "english": "Atlas Mountains"
 },
-{
-  "arabic": "القضية الفلسطينية",
-  "meaning": "パレスチナ問題",
-  "english": "Palestinian issue"
-},
-{
-  "arabic": "الصراع الفلسطيني الإسرائيلي",
-  "meaning": "パレスチナ・イスラエル紛争",
-  "english": "Israeli-Palestinian conflict"
-},
-{
-  "arabic": "الهولوكوست",
-  "meaning": "ユダヤ人虐殺（ホロコースト）",
-  "english": "the Holocaust"
-},
-{
-  "arabic": "الحركة الصهيونية",
-  "meaning": "シオニズム運動",
-  "english": "Zionist movement"
-},
-{
-  "arabic": "اتفاقية سايكس بيكو",
-  "meaning": "サイクス・ピコ協定（1916年）",
-  "english": "Sykes–Picot Agreement"
-},
-{
-  "arabic": "وعد بلفور",
-  "meaning": "バルフォア宣言（1917年）",
-  "english": "Balfour Declaration"
-},
-{
-  "arabic": "قرار تقسيم فلسطين",
-  "meaning": "パレスチナ分割決議（1947年）",
-  "english": "UN Partition Plan for Palestine"
-},
-{
-  "arabic": "النكبة",
-  "meaning": "ナクバ（大災厄）",
-  "english": "1948 Palestinian exodus (Nakba)"
-},
-{
-  "arabic": "لاجئون فلسطينيون",
-  "meaning": "パレスチナ難民",
-  "english": "Palestine refugees"
-},
-{
-  "arabic": "حرب 1948",
-  "meaning": "第一次中東戦争（1948年）",
-  "english": "1948 Arab-Israeli War"
-},
-{
-  "arabic": "الضفة الغربية",
-  "meaning": "ヨルダン川西岸",
-  "english": "West Bank"
-},
-{
-  "arabic": "قطاع غزة",
-  "meaning": "ガザ地区",
-  "english": "Gaza Strip"
-},
-{
-  "arabic": "حرب 1956",
-  "meaning": "第二次中東戦争（1956年）",
-  "english": "Second Arab-Israeli War"
-},
-{
-  "arabic": "العدوان الثلاثي",
-  "meaning": "「三国の敵対」",
-  "english": "Tripartite Aggression"
-},
-{
-  "arabic": "أزمة السويس",
-  "meaning": "「スエズ危機」",
-  "english": "Suez Crisis"
-},
-{
-  "arabic": "حرب سيناء",
-  "meaning": "「シナイ戦争」",
-  "english": "Sinai War"
-},
-{
-  "arabic": "تأميم قناة السويس",
-  "meaning": "スエズ運河の国有化",
-  "english": "Nationalization of the Suez Canal"
-},
-{
-  "arabic": "حرب 1967",
-  "meaning": "第三次中東戦争（1967年）",
-  "english": "1967 Arab-Israel War"
-},
-{
-  "arabic": "نكسة حزيران",
-  "meaning": "「6月の敗北」",
-  "english": "Naksah (Setback of June)"
-},
-{
-  "arabic": "حرب الأيام الستة",
-  "meaning": "「6日間戦争」",
-  "english": "Six-Day War"
-},
-{
-  "arabic": "القدس الشرقية",
-  "meaning": "東エルサレム",
-  "english": "East Jerusalem"
-},
-{
-  "arabic": "منظمة التحرير الفلسطينية",
-  "meaning": "パレスチナ解放機構（PLO）",
-  "english": "Palestine Liberation Organization"
-},
-{
-  "arabic": "حركة فتح",
-  "meaning": "ファタハ運動",
-  "english": "Fatah"
-},
-{
-  "arabic": "حركة المقاومة الإسلامية (حركة حماس)",
-  "meaning": "ハマース（イスラム抵抗運動）",
-  "english": "Hamas (Islamic Resistance Movement)"
-},
-{
-  "arabic": "كتائب الشهيد عز الدين القسام",
-  "meaning": "アルカッサーム旅団",
-  "english": "Izz ad-Din al-Qassam Brigades"
-},
-{
-  "arabic": "أيلول الأسود",
-  "meaning": "黒い九月（ヨルダン内戦）",
-  "english": "Black September"
-},
-{
-  "arabic": "الجبهة الشعبية لتحرير فلسطين",
-  "meaning": "パレスチナ人民解放戦線（PFLP）",
-  "english": "Popular Front for the Liberation of Palestine"
-},
-{
-  "arabic": "الحرب الأهلية اللبنانية",
-  "meaning": "レバノン内戦",
-  "english": "Lebanese Civil War"
-},
-{
-  "arabic": "الانتفاضة الفلسطينية الأولى",
-  "meaning": "第一次インティファーダ",
-  "english": "First Intifada"
-},
-{
-  "arabic": "انتفاضة الحجارة",
-  "meaning": "「石のインティファーダ」",
-  "english": "Stone Intifada"
-},
-{
-  "arabic": "اتفاقية أوسلو",
-  "meaning": "オスロ合意",
-  "english": "Oslo Accord"
-},
-{
-  "arabic": "السلطة الفلسطينية",
-  "meaning": "パレスチナ当局（PA）",
-  "english": "Palestinian Authority"
-},
-{
-  "arabic": "الانتفاضة الفلسطينية الثانية",
-  "meaning": "第二次インティファーダ",
-  "english": "Second Intifada"
-},
-{
-  "arabic": "انتفاضة الأقصى",
-  "meaning": "アルアクサー・インティファーダ",
-  "english": "Al-Aqsa Intifada"
-},
-{
-  "arabic": "جدار الفصل العنصري",
-  "meaning": "分離壁",
-  "english": "apartheid wall / West Bank barrier"
-},
-{
-  "arabic": "حاجز",
-  "meaning": "検問所",
-  "english": "checkpoint"
-},
-{
-  "arabic": "حق العودة للاجئين الفلسطينيين",
-  "meaning": "パレスチナ難民の帰還権",
-  "english": "Palestinian right of return"
-},
-{
-  "arabic": "حل الدولتين",
-  "meaning": "二国家解決論",
-  "english": "two-state solution"
-},
+
 {
   "arabic": "رئيس الولايات المتحدة",
   "meaning": "アメリカ合衆国大統領",
