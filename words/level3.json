@@ -111,7 +111,7 @@
 },
 {
   "arabic": "أيلول الأسود",
-  "meaning": "黒い九月（ヨルダン内戦）",
+  "meaning": "黒い九月",
   "english": "Black September"
 },
 {
@@ -120,9 +120,9 @@
   "english": "Popular Front for the Liberation of Palestine"
 },
 {
-  "arabic": "الحرب الأهلية اللبنانية",
-  "meaning": "レバノン内戦",
-  "english": "Lebanese Civil War"
+  "arabic": "الحرب الأهلية",
+  "meaning": "内戦",
+  "english": "Civil War"
 },
 {
   "arabic": "الانتفاضة الفلسطينية الأولى",
@@ -561,14 +561,9 @@
   "english": "U.S. Agency for International Development"
 },
 {
-  "arabic": "الاِتِّحاد القومي للأَسلِحة",
+  "arabic": "الاتحاد القومي للأسلحة",
   "meaning": "全米ライフル協会（NRA）",
   "english": "National Rifle Association of America"
-},
-{
-  "arabic": "لَجنة الشُّؤون العامّة الأمريكية الإسرائيلية",
-  "meaning": "米・イスラエル公共問題委員会（AIPAC）",
-  "english": "American Israel Public Affairs Committee"
 },
 {
   "arabic": "جريمة",
@@ -977,7 +972,7 @@
 },
 {
   "arabic": "حملة",
-  "meaning": "選挙運動",
+  "meaning": "選挙運動、キャンペーン",
   "english": "campaign"
 },
 {
@@ -1564,7 +1559,7 @@
   },
   {
     "arabic": "أنصار الله",
-    "meaning": "アンサールッラー（神の支持者たち）",
+    "meaning": "アンサールッラー（フーシー派正式名称）",
     "english": "Ansar Allah"
   },
   {
@@ -1636,11 +1631,6 @@
     "arabic": "تعذيب",
     "meaning": "拷問",
     "english": "torture"
-  },
-  {
-    "arabic": "نظام الأسد",
-    "meaning": "アサド政権",
-    "english": "Assad regime"
   },
     {
     "arabic": "المخابرات",

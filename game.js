@@ -7,9 +7,11 @@ let currentIndex = 0;
 let correctCount = 0;
 let wordList = [];
 let startTime;
+let timerInterval;
 let translations;
 let lang;
 let isBgmOn = true;
+let totalTypedLength = 0;
 
 // BGMと効果音（正誤判定時）の読み込み
 const bgm = document.getElementById('bgm');
@@ -66,25 +68,27 @@ async function loadWords(level) {
 function setLanguage(lang) {
   if (!translations) return;
   const texts = translations[lang];
+
   document.getElementById('btnReturn').textContent = texts.game_return;
+  document.getElementById("btnRetry").textContent = texts.btn_retry;
+  document.getElementById("progress").textContent = `${texts.questionLabel} 1 / 10`;
+  document.getElementById("enterHint").textContent = texts.enterHint;
 
   window.localizedText = {
-    resultLabel: texts.game_result,
-    scoreLabel: texts.game_score,
-    finishMessage: texts.game_finish,
     correctAnswer: texts.correctAnswer,
     incorrectAnswer: texts.incorrectAnswer,
-    msg_perfect: texts.msg_perfect,
-    msg_good: texts.msg_good,
-    msg_retry: texts.msg_retry,
-    questionLabel: texts.questionLabel,
-    enter_note: texts.enterHint,
-    resultTemplate: texts.resultTemplate,
-    elapsedTime: texts.elapsedTime 
+    finishMessage: texts.game_finish,           //おつかれさまでした
+    resultLabel: texts.game_result,             //結果
+    scoreLabel: texts.game_score,               //スコア
+    questionLabel: texts.questionLabel,         //問題
+    enter_note: texts.enterHint,                //ヒント
+    resultTemplate: texts.resultTemplate,       //10問中
+    elapsedTime: texts.elapsedTime,             //かかった時間
+    avgTime: texts.avgTime,             //平均時間
+    msg_perfect: texts.msg_perfect,             //満点
+    msg_good: texts.msg_good,                   //6点以上
+    msg_retry: texts.msg_retry,                 //5点以下
   };
-
-  document.getElementById("enterHint").textContent = texts.enterHint;
-  document.getElementById("progress").textContent = `${texts.questionLabel} 1 / 10`;
 }
 
 // ▼ 4. 初期化処理（ページ読み込み時）
@@ -102,17 +106,52 @@ window.addEventListener('load', async () => {
   translations = langData;
   setLanguage(lang);
   startTime = Date.now();
+  document.getElementById("timer").innerText = 0;
+  timerInterval = setInterval(() => {
+    const seconds = Math.floor((Date.now() - startTime) / 1000);
+    const timeLine = window.localizedText.elapsedTime.replace('{seconds}', seconds);
+    document.getElementById("timer").innerText = seconds;
+  }, 1000);
   showWord();
 
+  // 再チャレンジボタン
+  document.getElementById("btnRetry").addEventListener("click", () => {
+    currentIndex = 0;
+    correctCount = 0;
+    totalTypedLength = 0;
+
+    wordList = shuffle(wordList).slice(0, 10);
+    startTime = Date.now();
+    document.getElementById("timer").innerText = 0;
+
+    // 結果表示リセット
+    ["result-finish", "result-score", "result-time", "result-avg", "result-message"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = "";
+    });
+
+    //BGM再開
+    fadeInBGM();
+
+    // ボタンを非表示
+    document.getElementById("btnRetry").style.display = "none";
+
+    // タイマー再スタート
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      const seconds = Math.floor((Date.now() - startTime) / 1000);
+      document.getElementById("timer").innerText = seconds;
+    }, 1000);
+
+    showWord();
+  });
+
   const btnBgm = document.getElementById("btnToggleBgm");
-  btnBgm.textContent = translations[lang]["btn_bgm_on"];
   btnBgm.addEventListener("click", () => {
     if (isBgmOn) {
       stopBGM();
-      btnBgm.textContent = translations[lang]["btn_bgm_off"];
     } else {
       fadeInBGM();
-      btnBgm.textContent = translations[lang]["btn_bgm_on"];
     }
     isBgmOn = !isBgmOn;
   });
@@ -133,7 +172,13 @@ window.addEventListener('load', async () => {
 
 function showWord() {
   if (currentIndex >= 10) {
+    clearInterval(timerInterval);
     const seconds = Math.floor((Date.now() - startTime) / 1000);
+    const avgTime = totalTypedLength > 0
+      ? (seconds / totalTypedLength).toFixed(2)
+      : "N/A";
+    const avgLineTemplate = window.localizedText.avgTime || "平均時間：{avg}秒";
+    const avgLine = avgLineTemplate.replace('{avg}', avgTime);
 
     let message = "";
     if (correctCount === 10) {
@@ -147,16 +192,26 @@ function showWord() {
     const template = window.localizedText.resultTemplate || `10問中{correct}問正解です！`;
     const scoreLine = template.replace('{correct}', correctCount); 
     const timeLine = window.localizedText.elapsedTime.replace('{seconds}', seconds);
-    const resultElem = document.getElementById("result");
-    resultElem.classList.remove("correct", "incorrect");
 
-    document.getElementById("result").innerHTML = `
-    ${window.localizedText.finishMessage}<br>${scoreLine}<br><br>${message}`;
-    document.getElementById("score").innerText = `${window.localizedText.scoreLabel}：${correctCount} / 10`;
-    document.getElementById("timer").innerText = timeLine;
+    // ✅ 要素ごとに null チェック
+    const scoreEl = document.getElementById("result-score");
+    const timeEl = document.getElementById("result-time");
+    const avgEl = document.getElementById("result-avg");
+    const msgEl = document.getElementById("result-message");
+
+    if (scoreEl) scoreEl.textContent = scoreLine;
+    if (timeEl) timeEl.textContent = timeLine;
+    if (avgEl) avgEl.textContent = avgLine;
+    if (msgEl) msgEl.textContent = message;
+
+    //再開ボタンを表示
+    document.getElementById("btnRetry").style.display = "inline-block";
+
+    // その他表示リセット処理
+    document.getElementById("result-score").innerText =
+     `${window.localizedText.scoreLabel}：${correctCount} / 10`;
     document.getElementById("wordDisplay").innerText = "";
     document.getElementById("meaningDisplay").innerText = "";
-    document.getElementById("progress").innerText = "";
     stopBGM();
     return;
   }
@@ -167,31 +222,42 @@ function showWord() {
   document.getElementById("meaningDisplay").innerText =
     (lang === "en" ? "Meaning: " : "意味：") + (lang === "en" ? word.english : word.meaning);
   document.getElementById("inputBox").value = "";
-  document.getElementById("result").innerText = "";
-  document.getElementById("progress").innerText = `${window.localizedText.questionLabel} ${currentIndex + 1} / 10`;
   document.getElementById("inputBox").focus();
+  document.getElementById("progress").innerText =
+   `${window.localizedText.questionLabel} ${currentIndex + 1} / 10`;
+  
+  ["result-finish", "result-score", "result-time", "result-avg", "result-message"].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = "";
+   });   
 }
 
 // ▼ 6. 入力された回答をチェックして判定
 
 function checkAnswer() {
+  if (currentIndex >= 10) return;  // ✅ 10問終了後は処理しない
+
   const input = document.getElementById("inputBox").value.trim();
+  totalTypedLength += input.length;
+
   const correct = wordList[currentIndex].arabic;
-  const resultElem = document.getElementById("result");
+
+  // ✅ messageエリアだけに表示
+  const messageElem = document.getElementById("result-message");
 
   if (input === correct) {
     correctCount++;
     correctSound.currentTime = 0;
     correctSound.play();
-    resultElem.innerText = window.localizedText.correctAnswer;
-    resultElem.classList.remove("incorrect");
-    resultElem.classList.add("correct");
+    messageElem.textContent = window.localizedText.correctAnswer;
+    messageElem.classList.remove("incorrect");
+    messageElem.classList.add("correct");
   } else {
     incorrectSound.currentTime = 0;
     incorrectSound.play();
-    resultElem.innerText = `${window.localizedText.incorrectAnswer}：${correct}`;
-    resultElem.classList.remove("correct");
-    resultElem.classList.add("incorrect");
+    messageElem.textContent = `${window.localizedText.incorrectAnswer}：${correct}`;
+    messageElem.classList.remove("correct");
+    messageElem.classList.add("incorrect");
   }
 
   currentIndex++;

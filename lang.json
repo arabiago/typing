@@ -11,17 +11,17 @@
     "enterHint": "入力が完了したらEnterキーを押してね",
     "correctAnswer": "正解だよ！すごいね！",
     "incorrectAnswer": "残念！正解は",
-    "resultTemplate": "10問中{correct}問正解です！",
     "game_result": "結果",
     "game_score": "スコア",
-    "game_finish": "おつかれさまでした！",
+    "resultTemplate": "10問中{correct}問正解です！",
+    "elapsedTime": "かかった時間：{seconds}秒",
+    "avgTime": "1文字あたり平均時間：{avg}秒",
     "msg_perfect": "満点です！すばらしい！",
     "msg_good": "いいですね！その調子でがんばってください！",
     "msg_retry": "また挑戦してね！",
-    "elapsedTime": "経過時間：{seconds}秒",
-    "game_return": "HOMEに戻る",
-    "btn_bgm_off": "BGM再開",
-    "btn_bgm_on": "BGM停止"
+    "game_return": "HOME",
+    "btn_retry": "リトライ"
+
   },
   "en": {
     "title": "Arabic Typing Practice",
@@ -35,16 +35,16 @@
     "enterHint": "Press Enter when you finish typing",
     "correctAnswer": "Correct! Great job!",
     "incorrectAnswer": "Oops! Correct answer is",
-    "resultTemplate": "You got {correct} out of 10 correct!",
     "game_result": "Result",
     "game_score": "Score",
-    "game_finish": "Well done!",
+    "resultTemplate": "You got {correct} out of 10 correct!",
+    "elapsedTime": "Time: {seconds} sec",
+    "avgTime": "Average time: {avg} sec",
     "msg_perfect": "Perfect score! Excellent!",
     "msg_good": "Nice! Keep up the good work!",
     "msg_retry": "Try again next time!",
-    "elapsedTime": "Time: {seconds} sec",
-    "game_return": "Return to HOME",
-    "btn_bgm_off": "Resume BGM",
-    "btn_bgm_on": "Stop BGM"
+    "game_return": "HOME",
+    "btn_retry": "Retry"
+
   }
 }

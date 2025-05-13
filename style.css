@@ -40,10 +40,39 @@ body {
     color: #333;
   }
 
-  /* 問題数・タイマーの表示 */
-  #levelDisplay, #progress, #timer {
+  /* 問題数表示 */
+  .progress-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+
+  /* タイマー */
+  #timer {
+    width: 60px;
+    height: 60px;
+    background-color: #d65a5a;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+
+  #levelDisplay {
     margin: 10px 0;
+    font-size: 1.4em;
+  }
+
+  #progress {
     font-size: 1.2em;
+    font-weight: normal;
+    margin: 0; /* 必要ならここで明示的にマージンゼロも指定 */
   }
 
   /* 日本語意味の表示 */
@@ -72,7 +101,7 @@ body {
   /* 正解時のメッセージ色 */
   .correct {
     font-size: 1.0em;
-    color: green;
+    color: rgb(0, 128, 117);
     font-weight: bold;
   }
 
@@ -83,26 +112,29 @@ body {
     font-weight: bold;
   }
 
-  /* 結果表示とスコア表示：共通設定 */
-  #result {
-    font-size: 1.0em;
-    font-weight: bold; 
-    margin: 10px;
-    min-height: 3em;
-    overflow: visible;
-  }
+/* 結果表示エリア全体 */
+#result {
+  font-size: 1.0em;
+  font-weight: bold;
+  margin: 10px;
+  min-height: 3em;
+}
 
-  #score {
-    font-size: 1.1em;
-    margin: 20px 10px 10px;  
-    min-height: 3em;
-    overflow: visible;
-  }
+/* 各結果項目の個別調整（必要なら） */
+#result-finish
+#result-score,
+#result-time,
+#result-avg,
+#result-message {
+  margin-bottom: 8px;
+}
 
   #bgmCredit {
     font-size: 0.8em;
     color:#555;
   }
+
+
 
 /* 共通ボタンスタイル */
 button {
@@ -136,15 +168,36 @@ button:hover {
     font-size: 0.8em;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #002442;
-    color: white;
-    border: none;
-    cursor: pointer;
   }
 
-  .lang-button:hover {
-    background-color: #d65a5a;
+  /* ボタン：トップ画面 */
+  .index-button {
+    font-size: 1.2em;
+    padding: 15px 40px;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
   }
+
+  /* ボタン：ゲーム画面 */
+  .game-button {
+    font-size: 1em;
+    padding: 12px 24px;
+    max-width: 160px;
+    flex: 1 1 auto;
+  }
+
+  /* ボタン横並び */
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;         /* ボタン間の間隔 */
+    flex-wrap: wrap;   /* 幅が足りないときだけ折り返し可 */
+    margin-top: 20px;
+  }
+
 
   /*　キャラクター表示 */
 .mascot-container {
@@ -236,11 +289,22 @@ footer a:hover {
     margin: 20px 10px;
   }
 
-  button {
+  /* トップ画面ボタン */
+  .index-button {
     font-size: 0.9em;
     padding: 12px 20px;
     width: 80%;
     max-width: 300px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* ゲーム画面ボタン */
+  .game-button {
+    font-size: 0.9em;
+    padding: 12px 20px;
+    flex: 1 1 auto;
+    max-width: 160px;
   }
 
   #noteSound {
@@ -268,11 +332,11 @@ footer a:hover {
 
   /* game.html 専用調整 */
   #wordDisplay {
-    font-size: 2em;
+    font-size: 1.4em;
   }
 
   #meaningDisplay {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   #inputBox {
@@ -284,6 +348,14 @@ footer a:hover {
   #progress,
   #timer {
     font-size: 0.9em;
+  }
+
+  #result {
+    font-size: 0.8em;
+    font-weight: bold; 
+    margin: 10px;
+    min-height: 3em;
+    overflow: visible;
   }
 
 }

@@ -16,9 +16,13 @@
 <div class="content-box">
 
   <!--ゲーム情報表示-->
-  <h2 id="levelDisplay"></h2>
-  <div id="progress"></div>
+  <div class="progress-row">
   <div id="timer"></div>
+  <div id="progress"></div>
+  </div>
+
+  <div class="title-row">
+  <h2 id="levelDisplay"></h2>
 
   <!--タイピング単語と意味-->
   <h1 id="wordDisplay">Loading...</h1>
@@ -29,14 +33,19 @@
   <p id="enterHint" class="enter-hint"></p>
 
   <!--結果表示-->
-  <div id="result"></div>
+  <div id="result">
+    <p id="result-score"></p>
+    <p id="result-time"></p>
+    <p id="result-avg"></p>
+    <p id="result-message"></p>
+  </div>
 
-
-  <!--戻るボタン-->
-  <button id="btnReturn" onclick="location.href='index.html'"></button>
-
-  <!--BGM停止ボタン-->
-  <button id="btnToggleBgm"></button>
+  <!--ボタン-->
+  <div class="button-row">
+  <button class="game-button" id="btnReturn" onclick="location.href='index.html'"></button>
+  <button class="game-button" id="btnToggleBgm">BGM</button>
+  <button class="game-button" id="btnRetry" style="display: none;" ></button>
+  </div>
 
   <!-- BGMクレジット表記 -->
   <p id="bgmCredit" class="credit">
