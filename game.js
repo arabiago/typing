@@ -41,9 +41,25 @@ function stopBGM() {
   bgm.currentTime = 0;
 }
 
-// 配列をシャッフルする関数
-function shuffle(array) {
-  return [...array].sort(() => Math.random() - 0.5);
+// シード付き乱数生成器（Mulberry32アルゴリズム）
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = seed + 0x6D2B79F5 | 0;
+    let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+
+// シード付きFisher-Yatesシャッフル
+function shuffleWithSeed(array, seed) {
+  const rand = mulberry32(seed);
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
 }
 
 // レベルに応じて単語データを読み込む関数
@@ -60,7 +76,8 @@ async function loadWords(level) {
     return [];
   }
   const response = await fetch(`${filePath}?_=${Date.now()}`);
-  return await response.json();
+  const data = await response.json();
+  return data;
 }
 
 // ▼ 3. 言語をUIに反映
@@ -84,7 +101,7 @@ function setLanguage(lang) {
     enter_note: texts.enterHint,                //ヒント
     resultTemplate: texts.resultTemplate,       //10問中
     elapsedTime: texts.elapsedTime,             //かかった時間
-    avgTime: texts.avgTime,             //平均時間
+    avgTime: texts.avgTime,                     //平均時間
     msg_perfect: texts.msg_perfect,             //満点
     msg_good: texts.msg_good,                   //6点以上
     msg_retry: texts.msg_retry,                 //5点以下
@@ -102,30 +119,40 @@ window.addEventListener('load', async () => {
     fetch('lang.json').then(res => res.json())
   ]);
 
-  wordList = shuffle(wordData).slice(0, 10);
+  const seed = Date.now();
+  wordList = shuffleWithSeed(wordData, seed).slice(0, 10); 
+
   translations = langData;
   setLanguage(lang);
   startTime = Date.now();
   document.getElementById("timer").innerText = 0;
+
   timerInterval = setInterval(() => {
     const seconds = Math.floor((Date.now() - startTime) / 1000);
     const timeLine = window.localizedText.elapsedTime.replace('{seconds}', seconds);
     document.getElementById("timer").innerText = seconds;
   }, 1000);
+
   showWord();
 
   // 再チャレンジボタン
-  document.getElementById("btnRetry").addEventListener("click", () => {
+  document.getElementById("btnRetry").addEventListener("click", async () => {
     currentIndex = 0;
     correctCount = 0;
     totalTypedLength = 0;
 
-    wordList = shuffle(wordList).slice(0, 10);
+    const level = localStorage.getItem("level");
+    const fullWordList = await loadWords(level);
+    
+    const seed = Date.now(); // 現在時刻を乱数シードに使用
+    const shuffled = shuffleWithSeed(fullWordList, seed);
+    wordList = shuffled.slice(0, 10);
+
     startTime = Date.now();
     document.getElementById("timer").innerText = 0;
 
     // 結果表示リセット
-    ["result-finish", "result-score", "result-time", "result-avg", "result-message"].forEach(id => {
+    [ "result-score", "result-time", "result-avg", "result-message"].forEach(id => {
       const el = document.getElementById(id);
       if (el) el.textContent = "";
     });
