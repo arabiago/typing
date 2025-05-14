@@ -577,16 +577,6 @@
   "english": "attempted murder"
 },
 {
-  "arabic": "اغتصاب",
-  "meaning": "強姦",
-  "english": "rape"
-},
-{
-  "arabic": "حرق متعمد",
-  "meaning": "放火",
-  "english": "arson"
-},
-{
   "arabic": "اختطاف",
   "meaning": "誘拐",
   "english": "kidnapping"
@@ -620,16 +610,6 @@
   "arabic": "العنف الأسري",
   "meaning": "家庭内暴力",
   "english": "domestic violence"
-},
-{
-  "arabic": "إساءة معاملة الأطفال",
-  "meaning": "児童虐待",
-  "english": "child abuse"
-},
-{
-  "arabic": "بغاء",
-  "meaning": "売春",
-  "english": "prostitution"
 },
 {
   "arabic": "الاتجار بالأشخاص",
@@ -1619,11 +1599,6 @@
     "english": "Mukhabarat (intelligence service)"
   },
   {
-    "arabic": "الشبيحة",
-    "meaning": "シャッビーハ（親政権系民兵・暴徒）",
-    "english": "Shabiha (pro-regime thugs/militias)"
-  },
-  {
     "arabic": "لاجئ",
     "meaning": "難民",
     "english": "refugee"
@@ -1752,5 +1727,70 @@
     "arabic": "سلسلة الكتل",
     "meaning": "ブロックチェーン",
     "english": "blockchain"
+  },
+    {
+    "arabic": "زلزال",
+    "meaning": "地震",
+    "english": "earthquake"
+  },
+  {
+    "arabic": "تسونامي",
+    "meaning": "津波",
+    "english": "tsunami"
+  },
+  {
+    "arabic": "بركان",
+    "meaning": "火山",
+    "english": "volcano"
+  },
+  {
+    "arabic": "ثوران بركاني",
+    "meaning": "火山噴火",
+    "english": "volcanic eruption"
+  },
+  {
+    "arabic": "إعصار",
+    "meaning": "ハリケーン／台風",
+    "english": "hurricane / typhoon"
+  },
+  {
+    "arabic": "عاصفة رملية",
+    "meaning": "砂嵐",
+    "english": "sandstorm"
+  },
+  {
+    "arabic": "فيضان",
+    "meaning": "洪水",
+    "english": "flood"
+  },
+  {
+    "arabic": "انهيار أرضي",
+    "meaning": "地すべり",
+    "english": "landslide"
+  },
+  {
+    "arabic": "موجة حر",
+    "meaning": "熱波",
+    "english": "heatwave"
+  },
+  {
+    "arabic": "موجة برد",
+    "meaning": "寒波",
+    "english": "cold wave"
+  },
+  {
+    "arabic": "جفاف",
+    "meaning": "干ばつ",
+    "english": "drought"
+  },
+  {
+    "arabic": "عاصفة ثلجية",
+    "meaning": "吹雪",
+    "english": "blizzard"
+  },
+  {
+    "arabic": "كارثة طبيعية",
+    "meaning": "自然災害",
+    "english": "natural disaster"
   }
 ]
