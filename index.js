@@ -39,4 +39,24 @@ fetch('lang.json')
     document.getElementById('btnLevel4').textContent = texts.level4;
     document.getElementById('noteSound').textContent = texts.note_Sound;
     document.getElementById('balloon').innerHTML = texts.balloon;
+
+  //ランプ：ご案内の言語切り替え
+    const noticeData = texts.notice;
+    if (noticeData) {
+      let html = `<p><strong>${noticeData.title}</strong></p><ul>`;
+      noticeData.items.forEach(item => {
+        html += `<li>${item}</li>`;
+      });
+      html += `</ul>`;
+      document.getElementById('notice-box').innerHTML = html;
+    }
   });
+
+// ランプ：注意書きの動作
+const lamp = document.getElementById("magic-lamp");
+const noticeBox = document.getElementById("notice-box");
+
+lamp.addEventListener("click", () => {
+  noticeBox.classList.toggle("visible");
+});
+

@@ -20,8 +20,14 @@
     "msg_good": "いいですね！その調子でがんばってください！",
     "msg_retry": "また挑戦してね！",
     "game_return": "HOME",
-    "btn_retry": "リトライ"
-
+    "btn_retry": "リトライ",
+    "notice": {
+        "title": "【ご案内】",
+        "items": [
+          "当アプリはPCでのご利用を推奨しています。スマホでもご利用可能ですが、iPhoneではBGMが自動再生されないことがあります。「BGM」ボタンで再生・停止できます。",
+          "リトライ時に同じ単語セットが表示されることがあります。異なるセットを希望される場合は、HOMEに戻ってから再挑戦してください。"
+        ]
+      }
   },
   "en": {
     "title": "Arabic Typing Practice",
@@ -44,7 +50,13 @@
     "msg_good": "Nice! Keep up the good work!",
     "msg_retry": "Try again next time!",
     "game_return": "HOME",
-    "btn_retry": "Retry"
-
+    "btn_retry": "Retry",
+    "notice": {
+      "title": "[NoticeNotice]",
+      "items": [
+        "PC is recommended. On iPhones, BGM may not autoplay. Use the “BGM” button to manually control it.",
+        "Retry may show the same word set. Return to HOME before retrying to get a different set."
+      ]
+    }
   }
 }

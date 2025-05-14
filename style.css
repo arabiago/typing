@@ -248,6 +248,57 @@ button:hover {
   padding: 0;
 }
 
+  /* 左下固定ランプ */
+  #lamp-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #magic-lamp {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  #magic-lamp:hover {
+    transform: scale(1.1);
+  }
+
+  /* 吹き出し風の注意書き */
+#notice-box {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  bottom: 90px;
+  left: 40px;
+  background: rgba(255, 248, 220, 0.9); /* 半透明で煙感 */
+  border: 2px solid #e3b04b;
+  border-radius: 20px; /* 丸み強め */
+  padding: 1.0em;
+  max-width: 500px;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.3));
+  line-height: 1.7;
+  z-index: 999;
+  text-align: left;
+}
+
+  #notice-box.visible {
+    display: block;
+    opacity: 1;
+  }
+
+  #notice-box strong {
+    color: #a05a00;
+  }
+ 
 
 /*フッター*/
 footer {
@@ -298,6 +349,19 @@ footer a:hover {
     display: block;
     margin: 10px auto;
   }
+
+  /*ランプ部分*/
+  #notice-box {
+    left: 10px;
+    right: 10px;           /* 両サイドに余白を確保 */
+    width: auto;           /* 明示的な幅指定を解除 */
+    max-width: none;       /* 最大幅制限を解除 */
+    padding: 1em;
+    font-size: 0.95em;     /* 文字をやや小さく */
+    bottom: 100px;          /* ランプとの距離も調整 */
+    border-radius: 20px;
+  }
+
 
   /* ゲーム画面ボタン */
   .game-button {
