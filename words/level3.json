@@ -1,8 +1,8 @@
 [
   {
   "arabic": "القضية الفلسطينية",
-  "meaning": "パレスチナ問題",
-  "english": "Palestinian issue"
+  "meaning": "パレスチナの大義",
+  "english": "the Palestinian cause"
 },
 {
   "arabic": "الصراع الفلسطيني الإسرائيلي",
@@ -103,11 +103,6 @@
   "arabic": "كتائب الشهيد عز الدين القسام",
   "meaning": "アルカッサーム旅団",
   "english": "Izz ad-Din al-Qassam Brigades"
-},
-{
-  "arabic": "أيلول الأسود",
-  "meaning": "黒い九月",
-  "english": "Black September"
 },
 {
   "arabic": "الجبهة الشعبية لتحرير فلسطين",
@@ -269,6 +264,211 @@
     "arabic": "أرامكو",
     "meaning": "サウジアラムコ（サウジ国営石油会社）",
     "english": "Saudi Aramco"
+  },
+  {
+    "arabic": "رؤية السعودية 2030",
+    "meaning": "サウジ・ビジョン2030",
+    "english": "Saudi Vision 2030"
+  },
+  {
+    "arabic": "تنويع الاقتصاد",
+    "meaning": "経済多角化",
+    "english": "Economic diversification"
+  },
+  {
+    "arabic": "القطاعات غير النفطية",
+    "meaning": "非石油部門",
+    "english": "Non-oil sectors"
+  },
+  {
+    "arabic": "صندوق الاستثمارات العامة",
+    "meaning": "国家投資ファンド",
+    "english": "Public Investment Fund (PIF)"
+  },
+  {
+    "arabic": "المشاريع الضخمة",
+    "meaning": "メガプロジェクト",
+    "english": "Mega Projects"
+  },
+  {
+    "arabic": "نيوم",
+    "meaning": "NEOM（ネオム）",
+    "english": "NEOM"
+  },
+  {
+    "arabic": "تطوير السياحة",
+    "meaning": "観光開発",
+    "english": "Tourism development"
+  },
+  {
+    "arabic": "تمكين المرأة",
+    "meaning": "女性の社会進出",
+    "english": "Women empowerment"
+  },
+  {
+    "arabic": "السعودة",
+    "meaning": "サウジ化（雇用の国民化）",
+    "english": "Saudization"
+  },
+  {
+    "arabic": "برنامج التحول الوطني",
+    "meaning": "国家転換計画（NTP）",
+    "english": "National Transformation Program"
+  },
+  {
+    "arabic": "صناعة الترفيه",
+    "meaning": "エンターテインメント産業",
+    "english": "Entertainment industry"
+  },
+  {
+    "arabic": "السياحة الدينية",
+    "meaning": "宗教観光",
+    "english": "Religious tourism"
+  },
+  {
+    "arabic": "مركز لوجستي",
+    "meaning": "物流ハブ",
+    "english": "Logistics hub"
+  },
+  {
+    "arabic": "مدينة مستقبلية",
+    "meaning": "未来都市",
+    "english": "Futuristic city"
+  },
+  {
+    "arabic": "وادي السيليكون",
+    "meaning": "シリコンバレー",
+    "english": "Silicon Valley"
+  },
+  {
+    "arabic": "الاستدامة",
+    "meaning": "持続可能性",
+    "english": "Sustainability"
+  },
+  {
+    "arabic": "الاقتصاد الرقمي",
+    "meaning": "デジタル経済",
+    "english": "Digital economy"
+  },
+  {
+    "arabic": "مدينة ذكية",
+    "meaning": "スマートシティ",
+    "english": "Smart city"
+  },
+  {
+    "arabic": "العملة المشفرة",
+    "meaning": "暗号通貨",
+    "english": "cryptocurrency"
+  },
+  {
+    "arabic": "سلسلة الكتل",
+    "meaning": "ブロックチェーン",
+    "english": "blockchain"
+  },
+  {
+  "arabic": "خادم الحرمين الشريفين",
+  "meaning": "二つの聖モスクの守護者（サウジ国王の敬称）",
+  "english": "Custodian of the Two Holy Mosques"
+},
+  {
+    "arabic": "ولي العهد",
+    "meaning": "皇太子",
+    "english": "Crown Prince"
+  },
+  {
+    "arabic": "أمير",
+    "meaning": "首長（首長国の統治者）",
+    "english": "Emir"
+  },
+  {
+    "arabic": "ملك",
+    "meaning": "国王",
+    "english": "King"
+  },
+  {
+    "arabic": "سلطان",
+    "meaning": "スルタン",
+    "english": "Sultan"
+  },
+  {
+    "arabic": "رئيس الدولة",
+    "meaning": "国家元首",
+    "english": "Head of State"
+  },
+  {
+    "arabic": "الشيخ",
+    "meaning": "首長・族長・宗教指導者（※文脈により異なる）",
+    "english": "Sheikh"
+  },
+  {
+    "arabic": "الخليفة",
+    "meaning": "カリフ（イスラム国家の指導者）",
+    "english": "Caliph"
+  },
+    {
+    "arabic": "زلزال",
+    "meaning": "地震",
+    "english": "earthquake"
+  },
+  {
+    "arabic": "تسونامي",
+    "meaning": "津波",
+    "english": "tsunami"
+  },
+  {
+    "arabic": "بركان",
+    "meaning": "火山",
+    "english": "volcano"
+  },
+  {
+    "arabic": "ثوران بركاني",
+    "meaning": "火山噴火",
+    "english": "volcanic eruption"
+  },
+  {
+    "arabic": "إعصار",
+    "meaning": "ハリケーン／台風",
+    "english": "hurricane / typhoon"
+  },
+  {
+    "arabic": "عاصفة رملية",
+    "meaning": "砂嵐",
+    "english": "sandstorm"
+  },
+  {
+    "arabic": "فيضان",
+    "meaning": "洪水",
+    "english": "flood"
+  },
+  {
+    "arabic": "انهيار أرضي",
+    "meaning": "地すべり",
+    "english": "landslide"
+  },
+  {
+    "arabic": "موجة حر",
+    "meaning": "熱波",
+    "english": "heatwave"
+  },
+  {
+    "arabic": "موجة برد",
+    "meaning": "寒波",
+    "english": "cold wave"
+  },
+  {
+    "arabic": "جفاف",
+    "meaning": "干ばつ",
+    "english": "drought"
+  },
+  {
+    "arabic": "عاصفة ثلجية",
+    "meaning": "吹雪",
+    "english": "blizzard"
+  },
+  {
+    "arabic": "كارثة طبيعية",
+    "meaning": "自然災害",
+    "english": "natural disaster"
   },
   {
   "arabic": "تصدير",
@@ -1627,170 +1827,5 @@
     "arabic": "تنظيم إرهابي",
     "meaning": "テロ組織",
     "english": "terrorist organization"
-  },
-  {
-    "arabic": "رؤية السعودية 2030",
-    "meaning": "サウジ・ビジョン2030",
-    "english": "Saudi Vision 2030"
-  },
-  {
-    "arabic": "تنويع الاقتصاد",
-    "meaning": "経済多角化",
-    "english": "Economic diversification"
-  },
-  {
-    "arabic": "القطاعات غير النفطية",
-    "meaning": "非石油部門",
-    "english": "Non-oil sectors"
-  },
-  {
-    "arabic": "صندوق الاستثمارات العامة",
-    "meaning": "国家投資ファンド",
-    "english": "Public Investment Fund (PIF)"
-  },
-  {
-    "arabic": "المشاريع الضخمة",
-    "meaning": "メガプロジェクト",
-    "english": "Mega Projects"
-  },
-  {
-    "arabic": "نيوم",
-    "meaning": "NEOM（ネオム）",
-    "english": "NEOM"
-  },
-  {
-    "arabic": "تطوير السياحة",
-    "meaning": "観光開発",
-    "english": "Tourism development"
-  },
-  {
-    "arabic": "تمكين المرأة",
-    "meaning": "女性の社会進出",
-    "english": "Women empowerment"
-  },
-  {
-    "arabic": "السعودة",
-    "meaning": "サウジ化（雇用の国民化）",
-    "english": "Saudization"
-  },
-  {
-    "arabic": "برنامج التحول الوطني",
-    "meaning": "国家転換計画（NTP）",
-    "english": "National Transformation Program"
-  },
-  {
-    "arabic": "صناعة الترفيه",
-    "meaning": "エンターテインメント産業",
-    "english": "Entertainment industry"
-  },
-  {
-    "arabic": "السياحة الدينية",
-    "meaning": "宗教観光",
-    "english": "Religious tourism"
-  },
-  {
-    "arabic": "مركز لوجستي",
-    "meaning": "物流ハブ",
-    "english": "Logistics hub"
-  },
-  {
-    "arabic": "مدينة مستقبلية",
-    "meaning": "未来都市",
-    "english": "Futuristic city"
-  },
-  {
-    "arabic": "وادي السيليكون",
-    "meaning": "シリコンバレー",
-    "english": "Silicon Valley"
-  },
-  {
-    "arabic": "الاستدامة",
-    "meaning": "持続可能性",
-    "english": "Sustainability"
-  },
-  {
-    "arabic": "الاقتصاد الرقمي",
-    "meaning": "デジタル経済",
-    "english": "Digital economy"
-  },
-  {
-    "arabic": "مدينة ذكية",
-    "meaning": "スマートシティ",
-    "english": "Smart city"
-  },
-  {
-    "arabic": "العملة المشفرة",
-    "meaning": "暗号通貨",
-    "english": "cryptocurrency"
-  },
-  {
-    "arabic": "سلسلة الكتل",
-    "meaning": "ブロックチェーン",
-    "english": "blockchain"
-  },
-    {
-    "arabic": "زلزال",
-    "meaning": "地震",
-    "english": "earthquake"
-  },
-  {
-    "arabic": "تسونامي",
-    "meaning": "津波",
-    "english": "tsunami"
-  },
-  {
-    "arabic": "بركان",
-    "meaning": "火山",
-    "english": "volcano"
-  },
-  {
-    "arabic": "ثوران بركاني",
-    "meaning": "火山噴火",
-    "english": "volcanic eruption"
-  },
-  {
-    "arabic": "إعصار",
-    "meaning": "ハリケーン／台風",
-    "english": "hurricane / typhoon"
-  },
-  {
-    "arabic": "عاصفة رملية",
-    "meaning": "砂嵐",
-    "english": "sandstorm"
-  },
-  {
-    "arabic": "فيضان",
-    "meaning": "洪水",
-    "english": "flood"
-  },
-  {
-    "arabic": "انهيار أرضي",
-    "meaning": "地すべり",
-    "english": "landslide"
-  },
-  {
-    "arabic": "موجة حر",
-    "meaning": "熱波",
-    "english": "heatwave"
-  },
-  {
-    "arabic": "موجة برد",
-    "meaning": "寒波",
-    "english": "cold wave"
-  },
-  {
-    "arabic": "جفاف",
-    "meaning": "干ばつ",
-    "english": "drought"
-  },
-  {
-    "arabic": "عاصفة ثلجية",
-    "meaning": "吹雪",
-    "english": "blizzard"
-  },
-  {
-    "arabic": "كارثة طبيعية",
-    "meaning": "自然災害",
-    "english": "natural disaster"
   }
 ]
