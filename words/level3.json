@@ -35,11 +35,6 @@
   "english": "1948 Palestinian exodus (Nakba)"
 },
 {
-  "arabic": "لاجئون فلسطينيون",
-  "meaning": "パレスチナ難民",
-  "english": "Palestine refugees"
-},
-{
   "arabic": "الضفة الغربية",
   "meaning": "ヨルダン川西岸",
   "english": "West Bank"
@@ -51,17 +46,17 @@
 },
 {
   "arabic": "العدوان الثلاثي",
-  "meaning": "「三国の敵対」",
+  "meaning": "三国の敵対",
   "english": "Tripartite Aggression"
 },
 {
   "arabic": "أزمة السويس",
-  "meaning": "「スエズ危機」",
+  "meaning": "スエズ危機",
   "english": "Suez Crisis"
 },
 {
   "arabic": "حرب سيناء",
-  "meaning": "「シナイ戦争」",
+  "meaning": "シナイ戦争",
   "english": "Sinai War"
 },
 {
@@ -71,12 +66,12 @@
 },
 {
   "arabic": "نكسة حزيران",
-  "meaning": "「6月の敗北」",
+  "meaning": "6月の敗北",
   "english": "Naksah (Setback of June)"
 },
 {
   "arabic": "حرب الأيام الستة",
-  "meaning": "「6日間戦争」",
+  "meaning": "6日間戦争",
   "english": "Six-Day War"
 },
 {
@@ -125,13 +120,8 @@
   "english": "Civil War"
 },
 {
-  "arabic": "الانتفاضة الفلسطينية الأولى",
-  "meaning": "第一次インティファーダ",
-  "english": "First Intifada"
-},
-{
   "arabic": "انتفاضة الحجارة",
-  "meaning": "「石のインティファーダ」",
+  "meaning": "石のインティファーダ",
   "english": "Stone Intifada"
 },
 {
@@ -144,11 +134,7 @@
   "meaning": "パレスチナ当局（PA）",
   "english": "Palestinian Authority"
 },
-{
-  "arabic": "الانتفاضة الفلسطينية الثانية",
-  "meaning": "第二次インティファーダ",
-  "english": "Second Intifada"
-},
+
 {
   "arabic": "انتفاضة الأقصى",
   "meaning": "アルアクサー・インティファーダ",
@@ -750,11 +736,6 @@
     "meaning": "アラブの春",
     "english": "Arab Spring"
   },
-{
-  "arabic": "الشعب يريد إسقاط النظام",
-  "meaning": "民衆は体制崩壊を望んでいる",
-  "english": "The people want to bring down the regime"
-},
 {
   "arabic": "مظاهرات سلمية",
   "meaning": "平和的なデモ",
@@ -1643,9 +1624,9 @@
     "english": "Shabiha (pro-regime thugs/militias)"
   },
   {
-    "arabic": "اللاجئون السوريون",
-    "meaning": "シリア難民",
-    "english": "Syrian refugees"
+    "arabic": "لاجئ",
+    "meaning": "難民",
+    "english": "refugee"
   },
   {
     "arabic": "الثورة",
@@ -1662,11 +1643,6 @@
     "meaning": "テロリスト",
     "english": "terrorist"
   },
-  {
-    "arabic": "تفجير انتحاري",
-    "meaning": "自爆、自爆攻撃",
-    "english": "suicide bombing"
-  },
     {
     "arabic": "جماعة مسلحة",
     "meaning": "武装組織",
@@ -1676,6 +1652,105 @@
     "arabic": "تنظيم إرهابي",
     "meaning": "テロ組織",
     "english": "terrorist organization"
+  },
+  {
+    "arabic": "رؤية السعودية 2030",
+    "meaning": "サウジ・ビジョン2030",
+    "english": "Saudi Vision 2030"
+  },
+  {
+    "arabic": "تنويع الاقتصاد",
+    "meaning": "経済多角化",
+    "english": "Economic diversification"
+  },
+  {
+    "arabic": "القطاعات غير النفطية",
+    "meaning": "非石油部門",
+    "english": "Non-oil sectors"
+  },
+  {
+    "arabic": "صندوق الاستثمارات العامة",
+    "meaning": "国家投資ファンド",
+    "english": "Public Investment Fund (PIF)"
+  },
+  {
+    "arabic": "المشاريع الضخمة",
+    "meaning": "メガプロジェクト",
+    "english": "Mega Projects"
+  },
+  {
+    "arabic": "نيوم",
+    "meaning": "NEOM（ネオム）",
+    "english": "NEOM"
+  },
+  {
+    "arabic": "تطوير السياحة",
+    "meaning": "観光開発",
+    "english": "Tourism development"
+  },
+  {
+    "arabic": "تمكين المرأة",
+    "meaning": "女性の社会進出",
+    "english": "Women empowerment"
+  },
+  {
+    "arabic": "السعودة",
+    "meaning": "サウジ化（雇用の国民化）",
+    "english": "Saudization"
+  },
+  {
+    "arabic": "برنامج التحول الوطني",
+    "meaning": "国家転換計画（NTP）",
+    "english": "National Transformation Program"
+  },
+  {
+    "arabic": "صناعة الترفيه",
+    "meaning": "エンターテインメント産業",
+    "english": "Entertainment industry"
+  },
+  {
+    "arabic": "السياحة الدينية",
+    "meaning": "宗教観光",
+    "english": "Religious tourism"
+  },
+  {
+    "arabic": "مركز لوجستي",
+    "meaning": "物流ハブ",
+    "english": "Logistics hub"
+  },
+  {
+    "arabic": "مدينة مستقبلية",
+    "meaning": "未来都市",
+    "english": "Futuristic city"
+  },
+  {
+    "arabic": "وادي السيليكون",
+    "meaning": "シリコンバレー",
+    "english": "Silicon Valley"
+  },
+  {
+    "arabic": "الاستدامة",
+    "meaning": "持続可能性",
+    "english": "Sustainability"
+  },
+  {
+    "arabic": "الاقتصاد الرقمي",
+    "meaning": "デジタル経済",
+    "english": "Digital economy"
+  },
+  {
+    "arabic": "مدينة ذكية",
+    "meaning": "スマートシティ",
+    "english": "Smart city"
+  },
+  {
+    "arabic": "العملة المشفرة",
+    "meaning": "暗号通貨",
+    "english": "cryptocurrency"
+  },
+  {
+    "arabic": "سلسلة الكتل",
+    "meaning": "ブロックチェーン",
+    "english": "blockchain"
   }
-
 ]
