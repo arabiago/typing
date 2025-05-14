@@ -52,7 +52,7 @@
     "game_return": "HOME",
     "btn_retry": "Retry",
     "notice": {
-      "title": "[NoticeNotice]",
+      "title": "[Notice]",
       "items": [
         "PC is recommended. On iPhones, BGM may not autoplay. Use the “BGM” button to manually control it.",
         "Retry may show the same word set. Return to HOME before retrying to get a different set."

@@ -362,6 +362,10 @@ footer a:hover {
     border-radius: 20px;
   }
 
+    #magic-lamp {
+    width: 70px;
+  }
+
 
   /* ゲーム画面ボタン */
   .game-button {
