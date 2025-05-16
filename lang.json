@@ -24,8 +24,8 @@
     "notice": {
         "title": "【ご案内】",
         "items": [
-          "当アプリはPCでのご利用を推奨しています。スマホでもご利用可能ですが、iPhoneではBGMが自動再生されないことがあります。「BGM」ボタンで再生・停止できます。",
-          "リトライ時に同じ単語セットが表示されることがあります。異なるセットを希望される場合は、HOMEに戻ってから再挑戦してください。"
+          "当アプリはPCでのご利用を推奨しています。",
+          "スマホでもご利用可能ですが、iPhoneではBGMが自動再生されないことがあります。「BGM」ボタンで手動で再生・停止できます。"
         ]
       }
   },
@@ -54,8 +54,8 @@
     "notice": {
       "title": "[Notice]",
       "items": [
-        "PC is recommended. On iPhones, BGM may not autoplay. Use the “BGM” button to manually control it.",
-        "Retry may show the same word set. Return to HOME before retrying to get a different set."
+        "This app is best used on a PC. It is also accessible on smartphones, but on iPhones, background music may not play automatically.",
+        "You can manually play or stop the BGM using the “BGM” button."
       ]
     }
   }
